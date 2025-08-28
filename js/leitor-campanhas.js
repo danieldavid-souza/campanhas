@@ -141,3 +141,6 @@ document.addEventListener("DOMContentLoaded", () => {
     btnVoltar.style.display = "none";
   }
 });
+
+console.log("🧭 Hostname atual:", window.location.hostname);
+
