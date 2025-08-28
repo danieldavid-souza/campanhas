@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!btnVoltar) return;
 
   const hostname = window.location.hostname.toLowerCase();
+  console.log("🧭 Ambiente:", hostname); // ← aqui dentro!
 
   const emDesenvolvimento = hostname === "localhost" || hostname === "127.0.0.1";
 
@@ -141,6 +142,4 @@ document.addEventListener("DOMContentLoaded", () => {
     btnVoltar.style.display = "none";
   }
 });
-
-console.log("🧭 Ambiente:", hostname);
 
