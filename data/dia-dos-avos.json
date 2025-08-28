@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Livro de Memórias",
+    "descricao": "Para registrar histórias, fotos e momentos especiais em família.",
+    "preco": "R$ 59,90",
+    "imagem": "../imagens/avos/livro-memorias.jpg"
+  },
+  {
+    "nome": "Caneca “Melhor Vovô/Vovó”",
+    "descricao": "Personalizada com nome e mensagem carinhosa.",
+    "preco": "R$ 29,90",
+    "imagem": "../imagens/avos/caneca-personalizada.jpg"
+  },
+  {
+    "nome": "Kit Chá da Tarde",
+    "descricao": "Inclui infusor, seleção de chás e biscoitos artesanais.",
+    "preco": "R$ 74,90",
+    "imagem": "../imagens/avos/kit-cha.jpg"
+  }
+]

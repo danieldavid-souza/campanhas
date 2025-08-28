@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Produtos</title>
+  <link rel="stylesheet" href="/css/cadastro.css" />
+</head>
+<body>
+  <h1>📦 Cadastro de Produtos por Campanha</h1>
+
+  <form id="form-produto">
+    <input type="text" id="nome" placeholder="Nome do produto" required />
+    <input type="text" id="categoria" placeholder="Categoria" required />
+    <input type="text" id="preco" placeholder="Preço (ex: 49.90)" required />
+    <input type="text" id="imagem" placeholder="Imagem (ex: imagens/buque.jpg)" required />
+    <textarea id="descricao" placeholder="Descrição do produto" rows="3" required></textarea>
+
+    <select id="campanha" required>
+      <option value="">Selecione a campanha</option>
+      <option value="dia-das-maes">Dia das Mães</option>
+      <option value="dia-do-amigo">Dia do Amigo</option>
+      <option value="dia-dos-avos">Dia dos Avós</option>
+      <option value="dia-dos-namorados">Dia dos Namorados</option>
+      <option value="dia-dos-pais">Dia dos Pais</option>
+      <option value="dia-dos-professores">Dia dos Professores</option>
+      <option value="dia-das-criancas">Dia das Crianças</option>
+      <option value="natal">Natal</option>
+      <option value="avulsa">Campanha Avulsa</option>
+    </select>
+
+    <button type="submit">➕ Adicionar Produto</button>
+  </form>
+
+  <hr />
+
+  <h2>🗂️ Produtos cadastrados</h2>
+  <ul id="lista-produtos"></ul>
+
+  <button id="btn-exportar">📤 Exportar JSON da campanha</button>
+
+  <div style="text-align: center; margin-top: 2em;">
+    <a href="../index.html" class="btn-voltar">⬅ Voltar para o início</a>
+  </div>
+
+  <script src="/js/cadastro.js"></script>
+</body>
+</html>

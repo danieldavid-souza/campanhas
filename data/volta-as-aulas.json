@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Mochila Escolar Premium",
+    "descricao": "Compartimentos reforçados, alças acolchoadas e design moderno.",
+    "preco": "R$ 149,90",
+    "imagem": "../imagens/volta-as-aulas/mochila.jpg"
+  },
+  {
+    "nome": "Kit de Material Escolar",
+    "descricao": "Cadernos, lápis, canetas, régua e estojo completo.",
+    "preco": "R$ 89,90",
+    "imagem": "../imagens/volta-as-aulas/kit-material.jpg"
+  },
+  {
+    "nome": "Agenda Acadêmica 2025",
+    "descricao": "Organize seus estudos com estilo e praticidade.",
+    "preco": "R$ 39,90",
+    "imagem": "../imagens/volta-as-aulas/agenda.jpg"
+  }
+]

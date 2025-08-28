@@ -1,0 +1,486 @@
+/* ============================
+   FONTES GLOBAIS
+============================= */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2&family=Bebas+Neue&family=Cinzel+Decorative&family=Comic+Neue&family=Cormorant+Garamond&family=Dancing+Script&family=Fredoka+One&family=Great+Vibes&family=Inter&family=Lato&family=Merriweather&family=Montserrat&family=Nunito&family=Open+Sans&family=Oswald&family=Playfair+Display&family=Poppins&family=Quicksand&family=Raleway&family=Roboto&family=Roboto+Slab&family=Source+Sans+Pro&family=Work+Sans&display=swap');
+
+/* ============================
+   RESET E BASE
+============================= */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+h1, h2, h3 {
+  margin: 0 0 0.5em;
+  text-align: center;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
+  gap: 1.5em;                            /* espaçamento entre os cards */
+  padding: 1em;
+  justify-items: center;
+}
+
+.card-produto {
+  padding: 1em;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 1em;
+  text-align: center;
+}
+
+.card-produto img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.btn-whatsapp-card,
+.botao-compartilhar {
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-bottom: 2em; /* espaçamento abaixo do botão */
+  background-color: #00acc1;
+  color: white;
+  padding: 0.8em 1.5em;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+  background-color: #00838f;
+}
+
+/*==============================================================================================================*/
+
+/* Dia das Mães */
+body.dia-das-maes {
+  background-image: linear-gradient(rgba(255, 240, 245, 0.85), rgba(255, 240, 245, 0.85)),
+    url("../imagens/maes/fundo-dia-das-maes2.jpg");
+  font-family: 'Dancing Script', cursive;
+  color: #C2185B;
+}
+
+/* Dia dos Professores */
+body.dia-dos-professores {
+  background-image: linear-gradient(rgba(241, 248, 233, 0.85), rgba(241, 248, 233, 0.85)),
+    url("../imagens/professores/fundo-dia-dos-professores.jpg");
+  font-family: 'Roboto Slab', serif;
+  color: #558B2F;
+}
+
+/* Dia dos Pais */
+body.dia-dos-pais {
+  background-image: linear-gradient(rgba(236, 239, 241, 0.85), rgba(236, 239, 241, 0.85)),
+    url("../imagens/pais/fundo-dia-dos-pais.jpg");
+  font-family: 'Oswald', sans-serif;
+  color: #37474F;
+}
+
+/* Dia das Crianças */
+body.dia-das-criancas {
+  background-image: linear-gradient(rgba(255, 243, 224, 0.85), rgba(255, 243, 224, 0.85)),
+    url("../imagens/criancas/fundo-dia-das-criancas.jpg");
+  font-family: 'Fredoka One', cursive;
+  color: #FF7043;
+}
+
+/* Natal */
+body.natal {
+  background-image: linear-gradient(rgba(251, 233, 231, 0.85), rgba(251, 233, 231, 0.85)),
+    url("../imagens/natal/fundo-natal.jpg");
+  font-family: 'Great Vibes', cursive;
+  color: #C62828;
+}
+
+/* Black Friday */
+body.black-friday {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("../imagens/black-friday/fundo-black-friday.jpg");
+  font-family: 'Bebas Neue', sans-serif;
+  color: #FFEB3B;
+}
+
+/* Dia da Mulher */
+body.dia-da-mulher {
+  background-image: linear-gradient(rgba(252, 228, 236, 0.85), rgba(252, 228, 236, 0.85)),
+    url("../imagens/dia-da-mulher/fundo-dia-da-mulher.jpg");
+  font-family: 'Playfair Display', serif;
+  color: #AD1457;
+}
+
+/* Dia do Cliente */
+body.dia-do-cliente {
+  background-image: linear-gradient(rgba(224, 242, 241, 0.85), rgba(224, 242, 241, 0.85)),
+    url("../imagens/dia-do-cliente/fundo-dia-do-cliente.jpg");
+  font-family: 'Work Sans', sans-serif;
+  color: #0288D1;
+}
+
+/* Dia do Amigo */
+body.dia-do-amigo {
+  background-image: linear-gradient(rgba(243, 229, 245, 0.85), rgba(243, 229, 245, 0.85)),
+    url("../imagens/amigos/fundo-dia-do-amigo.jpg");
+  font-family: 'Baloo 2', cursive;
+  color: #6A1B9A;
+}
+
+/* Campanha Avulsa */
+body.avulsa {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/campanha-avulsa/fundo-campanha-avulsa.jpg");
+  font-family: 'Poppins', sans-serif;
+  --cor-titulo: #6C63FF;
+  --cor-preco: #FF6584;
+  --cor-texto: #333;
+  --cor-descricao: #444;
+  --cor-botao: #FFD700;
+  --cor-fundo-card: #F3F3F3;
+  --cor-header: #F3F3F3;
+}
+
+/* Volta às Aulas */
+body.volta-as-aulas {
+  background-image: linear-gradient(rgba(232, 245, 253, 0.85), rgba(232, 245, 253, 0.85)),
+    url("/imagens/volta-as-aulas/fundo-volta-as-aulas.jpg");
+  font-family: 'Nunito', 'Open Sans', sans-serif;
+  color: #1565C0;
+
+  --cor-titulo: #1E88E5;
+  --cor-preco: #1976D2;
+  --cor-texto: #1565C0;
+  --cor-descricao: #0D47A1;
+  --cor-botao: #BBDEFB;
+  --cor-fundo-card: #E3F2FD;
+  --cor-header: #BBDEFB;
+}
+
+/*================================================================================================================*/
+
+/* ============================
+   CAMPANHAS TEMÁTICAS
+============================= */
+
+/* Dia das Mães */
+body.dia-das-maes {
+  --cor-titulo: #E91E63;
+  --cor-preco: #F06292;
+  --cor-texto:#F06292;
+  --cor-botao: #F8BBD0;
+  --cor-fundo-card: #FFF0F5;
+  --cor-header:#FFF0F5;
+  font-family: 'Playfair Display', 'Lato', sans-serif;
+}
+
+/* Dia dos Avós */
+body.dia-dos-avos {
+  --cor-titulo: #4c4c47;
+  --cor-preco: #3d3d35;
+  --cor-texto: #3f3f3d;
+  --cor-botao: #727270;
+  --cor-fundo-card: #8b8b85;
+  --cor-header:#8b8b85;
+  font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+/* Dia dos Namorasdos*/
+body.dia-dos-namorados {
+  --cor-titulo: #ad1414;
+  --cor-preco: #fa4c4c;
+  --cor-texto:#770606;
+  --cor-botao: #f88585;
+  --cor-fundo-card:#fc9797;
+  --cor-descricao: #770e0e;
+   --cor-header:#fc9797;
+  font-family: 'Cormorant Garamond', 'Poppins', sans-serif;
+}
+
+/* Dia dos Professores */
+body.dia-dos-professores {
+  --cor-titulo: #2E7D32;
+  --cor-preco: #388E3C;
+  --cor-texto:#388E3C;
+  --cor-botao: #C8E6C9;
+  --cor-fundo-card: #F1F8E9;
+  --cor-header:#F1F8E9;
+  font-family: 'Merriweather', 'Roboto', sans-serif;
+}
+
+/* Dia dos Pais */
+body.dia-dos-pais {
+  --cor-titulo: #1565C0;
+  --cor-preco: #1E88E5;
+  --cor-texto:#1069b6;
+  --cor-botao: #BBDEFB;
+  --cor-fundo-card: #E3F2FD;
+  --cor-header:#E3F2FD;
+  font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+/* Dia das Crianças */
+body.dia-das-criancas {
+  --cor-titulo: #FF9800;
+  --cor-preco: #F57C00;
+  --cor-botao: #FFE0B2;
+  --cor-texto:#F57C00;
+  --cor-fundo-card: #FFF3E0;
+  --cor-header:#FFF3E0;
+  font-family: 'Comic Neue', 'Quicksand', sans-serif;
+}
+
+/* Natal *
+body.natal {
+  --cor-titulo: #C62828;
+  --cor-preco: #D32F2F;
+  --cor-texto:#be2222;
+  --cor-botao: #96c06e;
+  --cor-fundo-card: #fcb4b4;
+  font-family: 'Cinzel Decorative', 'Nunito', sans-serif;
+}*/
+
+/* Natal */
+body.natal {
+  --cor-titulo: #0e3d02;
+  --cor-preco: #114e02;
+  --cor-texto:#0a3101;
+  --cor-botao: #96c06e;
+  --cor-fundo-card: #56814c;
+  --cor-header:#56814c;
+  font-family: 'Cinzel Decorative', 'Nunito', sans-serif;
+}*
+
+/* Black Friday */
+body.black-friday {
+  --cor-titulo: #e7e5e5;
+  --cor-preco: #fcfbcd;
+  --cor-botao: #858585;
+  --cor-fundo-card: #929090;
+  --cor-header:#929090;
+  font-family: 'Anton', 'Inter', sans-serif;
+}
+
+/* Dia da Mulher */
+body.dia-da-mulher {
+  --cor-titulo: #AD1457;
+  --cor-preco: #F06292;
+  --cor-botao: #F8BBD0;
+  --cor-fundo-card: #FCE4EC;
+  --cor-descricao: #1B5E20;
+  --cor-header:#FCE4EC;
+  font-family: 'Cormorant Garamond', 'Poppins', sans-serif;
+}
+
+/* Dia do Cliente */
+body.dia-do-cliente {
+  --cor-titulo: #009688;
+  --cor-preco: #26A69A;
+  --cor-texto:#01524a;
+  --cor-botao: #B2DFDB;
+  --cor-fundo-card: #E0F2F1;
+  --cor-header: #E0F2F1;
+  font-family: 'Source Sans Pro', 'Montserrat', sans-serif;
+}
+
+/* Dia do Amigo */
+body.dia-do-amigo {
+  --cor-titulo: #6A1B9A;
+  --cor-preco: #AB47BC;
+  --cor-texto: #AB47BC;
+  --cor-botao: #E1BEE7;
+  --cor-fundo-card: #F3E5F5;
+  --cor-header: #F3E5F5;
+  font-family: 'Raleway', 'Cabin', sans-serif;
+}
+
+.nome-produto {
+  color: var(--cor-titulo);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.descricao-produto {
+  color: var(--cor-descricao, var(--cor-texto));
+  font-size: 0.95rem;
+  margin: 0.5em 0;
+}
+
+.descricao {
+  color: var(--cor-texto);
+  font-size: 1.05rem;
+  font-style: italic;
+  text-align: center;
+  margin: 1em auto;
+  max-width: 600px;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5em;
+  padding: 1em;
+  justify-items: center;
+}
+
+.botao-compartilhar {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* importante para evitar largura excessiva */
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.botao-compartilhar:hover {
+  background-color: var(--cor-preco);
+  color: #fff;
+  transform: scale(1.05);
+  
+}
+
+.botao-compartilhar span {
+  margin-right: 0.5em;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+/* ============================
+   ESTILOS DINÂMICOS
+============================= */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+  background-color: var(--cor-header, #ffe4e1); /* rosa como fallback */
+}
+
+header h1 {
+  color: var(--cor-titulo);
+}
+
+header p {
+  color: var(--cor-texto);
+}
+
+.titulo, .titulo-secundario {
+  color: var(--cor-titulo);
+}
+
+.descricao {
+  color:var(--cor-texto);
+}
+
+.botao-compartilhar {
+  background-color: var(--cor-botao);
+  color: #000;
+}
+
+.preco {
+  color: var(--cor-preco);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-produto {
+  background-color: var(--cor-fundo-card);
+}
+
+.btn-whatsapp-card,
+.botao-compartilhar {
+  background-color: var(--cor-botao);
+  color: #000;
+}
+
+.btn-whatsapp-card:hover,
+.botao-compartilhar:hover {
+  filter: brightness(0.95);
+}
+
+#produtos-container {
+  flex: 1;
+}
+
+#produtos-container {
+  padding-bottom: 80px; /* altura do rodapé */
+}
+
+/*================================================================================================================
+Modal Inicio
+=================================================================================================================*/
+
+.modal-compartilhar {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-conteudo {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.modal-conteudo button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*================================================================================================================
+Modal Fim
+=================================================================================================================*/

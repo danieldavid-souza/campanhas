@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Kit Churrasco Premium",
+    "descricao": "Facas, avental e temperos especiais.",
+    "preco": "R$ 149,90",
+    "imagem": "../imagens/pais/kit-churrasco.jpg"
+  },
+  {
+    "nome": "Relógio Clássico",
+    "descricao": "Design elegante com pulseira de couro.",
+    "preco": "R$ 199,90",
+    "imagem": "../imagens/pais/relogio.jpg"
+  },
+  {
+    "nome": "Cesta de Cervejas Artesanais",
+    "descricao": "Seleção especial com 6 rótulos nacionais.",
+    "preco": "R$ 89,90",
+    "imagem": "../imagens/pais/cesta-cervejas.jpg"
+  }
+]

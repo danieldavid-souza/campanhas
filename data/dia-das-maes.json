@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "dia-das-maes",
+    "preco": "38.00",
+    "imagem": "imagens/maes/caneca-amor-de-mae-foto.jpg",
+    "campanha": "dia-das-maes"
+  },
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "dia-das-maes",
+    "preco": "38.00",
+    "imagem": "imagens/maes/caneca-amor-de-mae.jpg",
+    "campanha": "dia-das-maes"
+  },
+  {
+    "nome": "Azulejo Para Sublimação Tamanho 20x20cm",
+    "categoria": "dia-das-maes",
+    "preco": "40.00",
+    "imagem": "imagens/maes/azulejo-amor-de-mae.jpg",
+    "campanha": "dia-das-maes"
+  }
+]

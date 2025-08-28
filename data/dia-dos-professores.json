@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/caneca.jpg",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "Agenda Capa MDF",
+    "categoria": "Dia Dos Professores",
+    "preco": "65",
+    "imagem": "imagens/professores/agenda.jpg",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "Camiseta Branca 100% Poliester Sublimatica",
+    "categoria": "Dia Dos Professores",
+    "preco": "40",
+    "imagem": "imagens/professores/camiseta.jpg",
+    "campanha": "dia-dos-professores"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "nome": "Kit Caneca Azulejo e Camisa Natal",
+    "categoria": "Natal",
+    "preco": "128",
+    "imagem": "imagens/natal/kit.jpg",
+    "campanha": "natal"
+  },
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Natal",
+    "preco": "38",
+    "imagem": "imagens/natal/caneca.jpg",
+    "campanha": "natal"
+  },
+  {
+    "nome": "Azulejo Para Sublimação Tamanho 20x20cm",
+    "categoria": "Natal",
+    "preco": "40.00",
+    "imagem": "imagens/natal/azulejo.jpg",
+    "campanha": "natal"
+  },
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Natal",
+    "preco": "38",
+    "imagem": "imagens/natal/caneca2.jpg",
+    "campanha": "natal"
+  }
+]

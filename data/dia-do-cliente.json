@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Cupom de Desconto",
+    "descricao": "R$ 20 off em compras acima de R$ 100.",
+    "preco": "Gratuito",
+    "imagem": "../imagens/cliente/cupom.jpg"
+  },
+  {
+    "nome": "Brinde Surpresa",
+    "descricao": "Receba um presente exclusivo.",
+    "preco": "Gratuito",
+    "imagem": "../imagens/cliente/brinde.jpg"
+  },
+  {
+    "nome": "Frete Grátis",
+    "descricao": "Para todo o Brasil em compras acima de R$ 50.",
+    "preco": "Gratuito",
+    "imagem": "../imagens/cliente/frete.jpg"
+  }
+]

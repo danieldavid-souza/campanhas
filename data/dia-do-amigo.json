@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Dia Do Amigo",
+    "preco": "38.00",
+    "imagem": "imagens/amigos/caneca1.jpg",
+    "campanha": "dia-do-amigo"
+  },
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Dia Do Amigo",
+    "preco": "38.00",
+    "imagem": "imagens/amigos/caneca2.jpg",
+    "campanha": "dia-do-amigo"
+  },
+  {
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Dia Do Amigo",
+    "preco": "38.00",
+    "imagem": "imagens/amigos/caneca3.jpg",
+    "campanha": "dia-do-amigo"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Smartphone X10",
+    "descricao": "Tela AMOLED, 128GB, câmera tripla.",
+    "preco": "R$ 1.299,00",
+    "imagem": "../imagens/black-friday/smartphone.jpg"
+  },
+  {
+    "nome": "Fone Bluetooth",
+    "descricao": "Som estéreo com cancelamento de ruído.",
+    "preco": "R$ 199,90",
+    "imagem": "../imagens/black-friday/fone.jpg"
+  },
+  {
+    "nome": "TV 50'' 4K",
+    "descricao": "Smart TV com HDR e Wi-Fi integrado.",
+    "preco": "R$ 2.499,00",
+    "imagem": "../imagens/black-friday/tv.jpg"
+  }
+]

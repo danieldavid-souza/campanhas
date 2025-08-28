@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Boneca Interativa",
+    "descricao": "Fala frases e canta músicas.",
+    "preco": "R$ 89,90",
+    "imagem": "../imagens/criancas/boneca.jpg"
+  },
+  {
+    "nome": "Carrinho de Controle Remoto",
+    "descricao": "Alta velocidade com bateria recarregável.",
+    "preco": "R$ 119,90",
+    "imagem": "../imagens/criancas/carrinho.jpg"
+  },
+  {
+    "nome": "Jogo Educativo",
+    "descricao": "Aprendizado com diversão para todas as idades.",
+    "preco": "R$ 49,90",
+    "imagem": "../imagens/criancas/jogo.jpg"
+  }
+]
