@@ -131,11 +131,13 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const btnVoltar = document.getElementById("btn-voltar");
 
-  // Detecta se está em produção (Netlify ou domínio próprio)
-  const hostname = window.location.hostname;
-  const emProducao = hostname.includes("netlify.app") || hostname.includes("marliartesanatos.com.br");
+  if (!btnVoltar) return;
 
-  if (emProducao && btnVoltar) {
+  const hostname = window.location.hostname.toLowerCase();
+
+  const emDesenvolvimento = hostname === "localhost" || hostname === "127.0.0.1";
+
+  if (!emDesenvolvimento) {
     btnVoltar.style.display = "none";
   }
 });
