@@ -48,13 +48,34 @@ form.addEventListener("submit", (e) => {
 function renderizarProdutos() {
   lista.innerHTML = "";
 
+  const iconesCampanha = {
+    "Aniversário": "🎂",
+    "Outubro Rosa": "🎀",
+    "Novembro Azul": "💙",
+    "Dia das Mães": "👩‍👧",
+    "Dia dos Pais": "👨‍👦",
+    "Dia das Crianças": "🧸",
+    "Natal": "🎄",
+    "Páscoa": "🐰",
+    "Dia do Cliente": "🤝",
+    "Dia do Amigo": "🫂",
+    "Dia da Mulher": "🌷",
+    "Dia dos Professores": "📚",
+    "Black Friday": "🛍️",
+    "Campanha Avulsa": "⭐",
+    "Volta às Aulas": "✏️",
+    "Dia dos Namorados": "❤️"
+  };
+
   produtos.forEach((produto, index) => {
     const card = document.createElement("li");
     card.classList.add("card-produto");
 
+    const icone = iconesCampanha[produto.campanha] || "🛒";
+
     card.innerHTML = `
       <img src="${produto.imagem}" alt="${produto.nome}" />
-      <h3>${produto.nome}</h3>
+      <h3>${icone} ${produto.nome}</h3>
       <p><strong>Categoria:</strong> ${produto.categoria}</p>
       <p><strong>Descrição:</strong> ${produto.descricao}</p>
       <p class="preco">R$ ${produto.preco}</p>

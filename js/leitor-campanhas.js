@@ -11,17 +11,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🔄 Carrega os produtos da campanha
   fetch(`/data/${campanha}.json`)
-    .then(res => {
-      if (!res.ok) throw new Error("Arquivo não encontrado");
-      return res.json();
-    })
+    .then(res => res.json())
     .then(produtos => {
+      const iconesCampanha = {
+        "Aniversário": "🎂",
+        "Outubro Rosa": "🎀",
+        "Novembro Azul": "💙",
+        "Dia das Mães": "👩‍👧",
+        "Dia dos Pais": "👨‍👦",
+        "Dia das Crianças": "🧸",
+        "Natal": "🎄",
+        "Páscoa": "🐰",
+        "Dia do Cliente": "🤝",
+        "Dia do Amigo": "🫂",
+        "Dia da Mulher": "🌷",
+        "Dia dos Professores": "📚",
+        "Black Friday": "🛍️",
+        "Campanha Avulsa": "⭐",
+        "Volta às Aulas": "✏️",
+        "Dia dos Namorados": "❤️"
+      };
+
       produtos.forEach(p => {
         const card = document.createElement("div");
         card.className = "card-produto";
+
+        const icone = iconesCampanha[p.campanha] || "🛒";
+
         card.innerHTML = `
           <img src="../${p.imagem}" alt="${p.nome}" />
-          <h3 class="nome-produto">${p.nome}</h3>
+          <h3 class="nome-produto">${icone} ${p.nome}</h3>
           <p class="descricao-produto">Descrição: ${p.descricao}</p>
           <p class="campanha">${p.campanha}</p>
           <p class="categoria">Categoria: ${p.categoria}</p>
@@ -31,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
             target="_blank" 
             class="btn-whatsapp-card"
           >
-            📤 Enviar pelo WhatsApp
+            📤 WhatsApp
           </a>
         `;
         container.appendChild(card);
@@ -105,5 +124,18 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("❌ Compartilhamento nativo não suportado neste navegador.");
       }
     });
+  }
+});
+
+//Ocultar o botão Voltar quando o Site estiver em produção
+document.addEventListener("DOMContentLoaded", () => {
+  const btnVoltar = document.getElementById("btn-voltar");
+
+  // Detecta se está em produção (Netlify ou domínio próprio)
+  const hostname = window.location.hostname;
+  const emProducao = hostname.includes("netlify.app") || hostname.includes("marliartesanatos.com.br");
+
+  if (emProducao && btnVoltar) {
+    btnVoltar.style.display = "none";
   }
 });
