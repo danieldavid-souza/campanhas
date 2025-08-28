@@ -142,5 +142,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-console.log("🧭 Hostname atual:", window.location.hostname);
+console.log("🧭 Ambiente:", hostname);
 
