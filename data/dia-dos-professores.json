@@ -4,6 +4,7 @@
     "categoria": "Dia Dos Professores",
     "preco": "38.00",
     "imagem": "imagens/professores/caneca.jpg",
+    "descricao": "Surpreenda alguém especial com esta linda caneca personalizada, perfeita para comemorar aniversários com carinho e estilo. A estampa traz um design moderno e delicado, com elementos geométricos coloridos, detalhes em azul e preto, além de um charmoso presente ilustrado acompanhado da mensagem “Feliz Aniversário”.",
     "campanha": "dia-dos-professores"
   },
   {
@@ -11,6 +12,7 @@
     "categoria": "Dia Dos Professores",
     "preco": "65",
     "imagem": "imagens/professores/agenda.jpg",
+    "descricao": "Surpreenda alguém especial com esta linda caneca personalizada, perfeita para comemorar aniversários com carinho e estilo. A estampa traz um design moderno e delicado, com elementos geométricos coloridos, detalhes em azul e preto, além de um charmoso presente ilustrado acompanhado da mensagem “Feliz Aniversário”.",
     "campanha": "dia-dos-professores"
   },
   {
@@ -18,6 +20,64 @@
     "categoria": "Dia Dos Professores",
     "preco": "40",
     "imagem": "imagens/professores/camiseta.jpg",
+    "descricao": "Surpreenda alguém especial com esta linda caneca personalizada, perfeita para comemorar aniversários com carinho e estilo. A estampa traz um design moderno e delicado, com elementos geométricos coloridos, detalhes em azul e preto, além de um charmoso presente ilustrado acompanhado da mensagem “Feliz Aniversário”.",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "🦉✨ Caneca Personalizada – Professora Coruja 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/1.jpg",
+    "descricao": "Um presente cheio de carinho e significado para homenagear quem dedica sua vida ao ensino! Esta caneca personalizada traz uma charmosa ilustração de coruja, símbolo de sabedoria e conhecimento, em um delicado cenário floral sobre fundo em tons de rosa.",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "🦉🌸 Caneca Personalizada – Professora Coruja com Estilo Delicado 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/2.jpg",
+    "descricao": "Um presente encantador para expressar gratidão e carinho às professoras que fazem a diferença! Esta caneca personalizada traz a ilustração de uma coruja estilizada com olhar meigo, sentada em um galho florido, simbolizando sabedoria, ternura e dedicação.",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "🦉🌷 Caneca Personalizada – Professora Coruja Rosa",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/3.jpg",
+    "descricao": "Uma homenagem encantadora para quem dedica sua vida ao ensino com amor e sabedoria! Esta caneca personalizada apresenta uma linda coruja em tons de rosa, sentada em um galho florido, transmitindo ternura e conhecimento.",
+    "campanha": "dia-dos-professores"
+  },
+
+  {
+    "nome": "🌸🦉 Caneca Personalizada – Professora Jardim Encantado 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/5.jpg",
+    "descricao": "Uma forma carinhosa de demonstrar gratidão por quem dedica sua vida a ensinar! Esta caneca personalizada traz um design delicado em xadrez rosa, com a ilustração de uma simpática corujinha cercada por flores e arco-íris, simbolizando sabedoria e ternura.",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "🦉📚 Caneca Personalizada – Homenagem ao Professor 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/6.jpg",
+    "descricao": "Uma lembrança especial para quem transforma conhecimento em inspiração! Com um design delicado e cheio de significado, esta caneca traz de um lado uma ilustração encantadora de coruja, símbolo de sabedoria e aprendizado, rodeada por flores coloridas.",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "🦉💝 Caneca Personalizada – Coruja e Mensagem Especial 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/7.jpg",
+    "descricao": "Uma peça cheia de carinho para presentear quem faz diferença na sua vida! De um lado, a estampa traz uma fofa corujinha rosa, símbolo de sabedoria e ternura. Do outro, uma mensagem inspiradora que emociona: Tem gente que é presente de Deus em nossa vida, e você é uma delas.",
+    "campanha": "dia-dos-professores"
+  },
+  {
+    "nome": "🏫 Caneca de Porcelana Querida Professora – Edição Especial 325ml",
+    "categoria": "Dia Dos Professores",
+    "preco": "38.00",
+    "imagem": "imagens/professores/8.jpg",
+    "descricao": "Celebre o carinho e a dedicação de quem transforma vidas com esta caneca exclusiva para o Dia dos Professores. Com design delicado e mensagem inspiradora, ela é perfeita para presentear aquela educadora que faz a diferença todos os dias.",
     "campanha": "dia-dos-professores"
   }
 ]

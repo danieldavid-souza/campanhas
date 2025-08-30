@@ -154,12 +154,12 @@ body.novembro-azul {
 body.aniversario {
   background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
     url("/imagens/aniversario/fundo-aniversario.jpg");
-  --cor-titulo: #FF4081;
-  --cor-preco: #FFD54F;
-  --cor-botao: #FFECB3;
-  --cor-fundo-card: #FFF8E1;
-  --cor-header: #FFF3E0;
-  --cor-texto: #F57C00;
+  --cor-titulo: #053a80;
+  --cor-preco: #0e5abd;
+  --cor-botao: #4ea5f7;
+  --cor-fundo-card: #d8e9f8;
+  --cor-header: #bee1f8;
+  --cor-texto: #2173b6;
   font-family: 'Baloo 2', 'Poppins', sans-serif;
 }
 
@@ -188,6 +188,8 @@ body.campanha-avulsa {
 }
 
 body.dia-dos-namorados {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/namorados/fundo-namorados.jpg");
   --cor-titulo: #AD1457;
   --cor-preco: #F06292;
   --cor-botao: #F8BBD0;
@@ -196,6 +198,23 @@ body.dia-dos-namorados {
   --cor-texto: #880E4F;
   font-family: 'Cormorant Garamond', 'Poppins', sans-serif;
 }
+
+.tema-dia-dos-avos {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/avos/fundo-avos.jpg");
+  color: #5c3d2e;
+  --cor-titulo: #5c3d2e;
+  --cor-preco: #2e1e16;
+  --cor-botao: #9b7c6d;
+  --cor-fundo-card: #cac8c7;
+  --cor-header: #cac6c4;
+  --cor-texto: #46413e;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(92, 61, 46, 0.2);
+  font-family: 'Georgia', serif;
+}
+
 
 /* ============================
    ESTRUTURA GERAL
@@ -226,6 +245,11 @@ header p {
   font-size: 1.1rem;
 }
 
+p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.6;
+}
+
 /* ============================
    PRODUTOS
 ============================= */
@@ -233,7 +257,7 @@ header p {
 .grid-produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5em;
+  gap: 5.5em;
   padding: 1em;
   justify-items: center;
 }
@@ -385,6 +409,11 @@ header p {
 #produtos-container {
   flex: 1;
   padding-bottom: 80px; /* espaço para rodapé */
+}
+
+.container {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 /* =========================================================
