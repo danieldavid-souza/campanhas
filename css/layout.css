@@ -1,0 +1,88 @@
+/* layout.css */
+
+/* Container principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--cor-header, #f5f5f5);
+  padding: 1.5em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--cor-titulo, #333);
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+nav ul li a {
+  font-weight: 500;
+  color: var(--cor-texto, #333);
+}
+
+/* Rodapé */
+footer {
+  background-color: var(--cor-header, #f5f5f5);
+  padding: 2em;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 2px solid #ddd;
+}
+
+/* Grid de cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+/* layout.css ou components.css */
+
+/* Centraliza o conteúdo do header */
+header {
+  text-align: center;
+  padding: 2em;
+}
+
+/* Título principal */
+.titulo {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Parágrafo do cabeçalho */
+header p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Título secundário */
+.titulo-secundario {
+  font-size: 1.5em;
+  color: #444;
+  margin: 2em 0 1em;
+  text-align: center;
+}

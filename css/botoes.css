@@ -1,0 +1,16 @@
+/* botoes.css */
+
+/* Botão de voltar */
+.botao-voltar {
+  display: inline-block;
+  background-color: var(--cor-botao, #1976D2);
+  color: #fff;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.botao-voltar:hover {
+  background-color: #1565C0;
+}

@@ -1,0 +1,48 @@
+/* responsive.css */
+
+/* Telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  .container {
+    padding: 1em;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    width: 90%;
+    padding: 1.5em;
+  }
+}
+
+/* Telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.5em;
+  }
+
+  button, .btn {
+    width: 100%;
+    padding: 0.75em;
+  }
+
+  input, textarea, select {
+    font-size: 1em;
+  }
+
+  .card {
+    padding: 1em;
+  }
+}

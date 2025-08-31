@@ -1,0 +1,164 @@
+/* ===============================
+   Estilos Globais Adaptáveis por Tema
+   =============================== */
+
+/* Títulos principais e secundários */
+.titulo,
+.titulo-secundario {
+  color: var(--cor-titulo);
+  font-family: inherit;
+  text-align: center;
+  margin-top: 1em;
+  display: block;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 2rem;
+}
+
+.titulo-secundario {
+  font-size: 1.5rem;
+  margin: 2em 0 1em;
+}
+
+/* Textos e descrições */
+.descricao,
+.texto,
+p {
+  color: var(--cor-texto);
+  font-family: inherit;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 16px;
+}
+
+/* Nome do produto */
+.nome-produto {
+  color: var(--cor-titulo);
+  font-weight: bold;
+  font-family: inherit;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* Preço */
+.preco {
+  color: var(--cor-preco);
+  font-size: 1.2rem;
+  font-family: inherit;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+/* Botões */
+.botao,
+.btn,
+button {
+  background-color: var(--cor-botao);
+  color: var(--cor-texto);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1em auto;
+  text-align: center;
+}
+
+/* Cartões de produto ou conteúdo */
+.card {
+  background-color: var(--cor-fundo-card);
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 2em auto;
+  max-width: 800px;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: var(--cor-header);
+  padding: 1em;
+  text-align: center;
+}
+
+/* Layout do header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+body.dia-dos-namorados .titulo {
+  font-size: 2.2rem;
+}
+
+body.dia-dos-namorados .titulo-secundario {
+  font-size: 1.6rem;
+  margin-bottom: 1.5em;
+}
+
+body.dia-dos-namorados .card {
+  border: 2px solid #D81B60;
+}
+
+/* 🧓 Dia dos Avós */
+body.dia-dos-avos .titulo {
+  font-size: 2.1rem;
+}
+
+body.dia-dos-avos .card {
+  border: 2px dashed #A1887F;
+}
+
+/* 📚 Volta às Aulas */
+body.volta-as-aulas .titulo-secundario {
+  font-size: 1.6rem;
+}
+
+body.volta-as-aulas .botao {
+  font-weight: bold;
+}
+
+/* 🌀 Tema Avulso */
+body.tema-avulso .titulo {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 🎉 Tema Aniversário */
+body.aniversario .titulo {
+  font-size: 2.3rem;
+  text-shadow: 1px 1px 2px #F06292;
+}
+
+body.aniversario .card {
+  border: 3px solid #F8BBD0;
+  box-shadow: 0 0 10px rgba(216, 27, 96, 0.2);
+}
+
+body.aniversario .botao {
+  background-color: #F06292;
+  color: white;
+  border-radius: 25px;
+  padding: 0.6em 1.2em;
+}
+
+/* ===============================
+   Fallback para quando nenhum tema estiver ativo
+   =============================== */
+:root {
+  --cor-titulo: #333;
+  --cor-preco: #666;
+  --cor-botao: #ccc;
+  --cor-fundo-card: #f9f9f9;
+  --cor-header: #f1f1f1;
+  --cor-texto: #444;
+  font-family: 'Poppins', sans-serif;
+}

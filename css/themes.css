@@ -1,0 +1,219 @@
+body.black-friday {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("/imagens/black-friday/fundo-black-friday.jpg");
+  --cor-titulo: #e7e5e5;
+  --cor-preco: #fcfbcd;
+  --cor-botao: #858585;
+  --cor-fundo-card: #929090;
+  --cor-header: #929090;
+  --cor-texto: #e7e5e5;
+  font-family: 'Anton', 'Inter', sans-serif;
+}
+
+body.dia-da-mulher {
+  background-image: linear-gradient(rgba(252, 228, 236, 0.85), rgba(252, 228, 236, 0.85)),
+    url("/imagens/dia-da-mulher/fundo-dia-da-mulher.jpg");
+  --cor-titulo: #AD1457;
+  --cor-preco: #F06292;
+  --cor-botao: #F8BBD0;
+  --cor-fundo-card: #FCE4EC;
+  --cor-header: #FCE4EC;
+  --cor-texto: #1B5E20;
+  font-family: 'Cormorant Garamond', 'Poppins', sans-serif;
+}
+
+body.dia-do-cliente {
+  background-image: linear-gradient(rgba(224, 242, 241, 0.85), rgba(224, 242, 241, 0.85)),
+    url("/imagens/dia-do-cliente/fundo-dia-do-cliente.jpg");
+  --cor-titulo: #009688;
+  --cor-preco: #26A69A;
+  --cor-botao: #B2DFDB;
+  --cor-fundo-card: #E0F2F1;
+  --cor-header: #E0F2F1;
+  --cor-texto: #01524a;
+  font-family: 'Source Sans Pro', 'Montserrat', sans-serif;
+}
+
+body.dia-do-amigo {
+  background-image: linear-gradient(rgba(243, 229, 245, 0.85), rgba(243, 229, 245, 0.85)),
+    url("/imagens/amigos/fundo-dia-do-amigo.jpg");
+  --cor-titulo: #6A1B9A;
+  --cor-preco: #AB47BC;
+  --cor-botao: #E1BEE7;
+  --cor-fundo-card: #F3E5F5;
+  --cor-header: #F3E5F5;
+  --cor-texto: #AB47BC;
+  font-family: 'Raleway', 'Cabin', sans-serif;
+}
+
+body.natal {
+  background-image: linear-gradient(rgba(251, 233, 231, 0.85), rgba(251, 233, 231, 0.85)),
+    url("/imagens/natal/fundo-natal.jpg");
+  --cor-titulo: #B71C1C;
+  --cor-preco: #FFEB3B;
+  --cor-botao: #C62828;
+  --cor-fundo-card: #FFCDD2;
+  --cor-header: #FFEBEE;
+  --cor-texto: #4E342E;
+  font-family: 'Merriweather', 'Roboto', sans-serif;
+}
+
+body.pascoa {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/pascoa/fundo-campanha-pascoa.jpg");
+  --cor-titulo: #6D4C41;
+  --cor-preco: #FFB74D;
+  --cor-botao: #FFF3E0;
+  --cor-fundo-card: #FFE0B2;
+  --cor-header: #FFF8E1;
+  --cor-texto: #5D4037;
+  font-family: 'Quicksand', 'Lato', sans-serif;
+}
+
+body.dia-das-maes {
+  background-image: linear-gradient(rgba(255, 240, 245, 0.85), rgba(255, 240, 245, 0.85)),
+    url("/imagens/maes/fundo-dia-das-maes2.jpg");
+  --cor-titulo: #C2185B;
+  --cor-preco: #F8BBD0;
+  --cor-botao: #F48FB1;
+  --cor-fundo-card: #FCE4EC;
+  --cor-header: #FCE4EC;
+  --cor-texto: #880E4F;
+  font-family: 'Playfair Display', 'Poppins', sans-serif;
+}
+
+body.dia-dos-pais {
+  background-image: linear-gradient(rgba(236, 239, 241, 0.85), rgba(236, 239, 241, 0.85)),
+    url("/imagens/pais/fundo-dia-dos-pais.jpg");
+  --cor-titulo: #1E88E5;
+  --cor-preco: #90CAF9;
+  --cor-botao: #BBDEFB;
+  --cor-fundo-card: #E3F2FD;
+  --cor-header: #E3F2FD;
+  --cor-texto: #0D47A1;
+  font-family: 'Oswald', 'Roboto', sans-serif;
+}
+
+body.dia-dos-professores {
+  background-image: linear-gradient(rgba(241, 248, 233, 0.85), rgba(241, 248, 233, 0.85)),
+    url("/imagens/professores/fundo-dia-dos-professores.jpg");
+  --cor-titulo: #5E35B1;
+  --cor-preco: #9575CD;
+  --cor-botao: #D1C4E9;
+  --cor-fundo-card: #EDE7F6;
+  --cor-header: #EDE7F6;
+  --cor-texto: #311B92;
+  font-family: 'Libre Baskerville', 'Poppins', sans-serif;
+}
+
+body.dia-das-criancas {
+  background-image: linear-gradient(rgba(255, 243, 224, 0.85), rgba(255, 243, 224, 0.85)),
+    url("/imagens/criancas/fundo-dia-das-criancas.jpg");
+  --cor-titulo: #FDD835;
+  --cor-preco: #FF7043;
+  --cor-botao: #FFCCBC;
+  --cor-fundo-card: #FFF9C4;
+  --cor-header: #FFFDE7;
+  --cor-texto: #F57C00;
+  font-family: 'Comic Neue', 'Nunito', sans-serif;
+}
+
+body.outubro-rosa {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/outubro-rosa/fundo-outrubro-rosa.jpg");
+  --cor-titulo: #EC407A;
+  --cor-preco: #F8BBD0;
+  --cor-botao: #F48FB1;
+  --cor-fundo-card: #FCE4EC;
+  --cor-header: #FCE4EC;
+  --cor-texto: #880E4F;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+body.novembro-azul {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/novembro-azul/fundo-novembro-azul.jpg");
+  --cor-titulo: #1976D2;
+  --cor-preco: #BBDEFB;
+  --cor-botao: #64B5F6;
+  --cor-fundo-card: #E3F2FD;
+  --cor-header: #E3F2FD;
+  --cor-texto: #0D47A1;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+body.tema-nascimento {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("/imagens/nascimento/fundo-nascimento.jpg");
+  --cor-titulo: #81C784;
+  --cor-preco: #235025;
+  --cor-botao: #A5D6A7;
+  --cor-fundo-card: #E8F5E9;
+  --cor-header: #E8F5E9;
+  --cor-texto: #2E7D32;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+body.dia-dos-namorados {
+  background-image: linear-gradient(rgba(255, 228, 225, 0.85), rgba(255, 228, 225, 0.85)),
+    url("/imagens/namorados/fundo-dia-dos-namorados.jpg");
+  --cor-titulo: #D81B60;
+  --cor-preco: #F06292;
+  --cor-botao: #F8BBD0;
+  --cor-fundo-card: #FCE4EC;
+  --cor-header: #FCE4EC;
+  --cor-texto: #880E4F;
+  font-family: 'Poppins', 'Playfair Display', sans-serif;
+}
+
+/* 🧓 Dia dos Avós */
+body.tema-dia-dos-avos {
+  background-image: linear-gradient(rgba(255, 248, 220, 0.85), rgba(255, 248, 220, 0.85)),
+    url("/imagens/avos/fundo-dia-dos-avos.jpg");
+  --cor-titulo: #8D6E63;
+  --cor-preco: #A1887F;
+  --cor-botao: #D7CCC8;
+  --cor-fundo-card: #EFEBE9;
+  --cor-header: #EFEBE9;
+  --cor-texto: #4E342E;
+  font-family: 'Merriweather', 'Poppins', sans-serif;
+}
+
+/* 📚 Volta às Aulas */
+body.volta-as-aulas {
+  background-image: linear-gradient(rgba(227, 242, 253, 0.85), rgba(227, 242, 253, 0.85)),
+    url("/imagens/volta-as-aulas/fundo-volta-as-aulas.jpg");
+  --cor-titulo: #1976D2;
+  --cor-preco: #64B5F6;
+  --cor-botao: #BBDEFB;
+  --cor-fundo-card: #E3F2FD;
+  --cor-header: #E3F2FD;
+  --cor-texto: #0D47A1;
+  font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+/* 🌀 Tema Avulso (genérico) */
+body.tema-avulso {
+  background-image: linear-gradient(rgba(245, 245, 245, 0.85), rgba(245, 245, 245, 0.85)),
+    url("/imagens/campanha-avulsa/fundo-campanha-avulsa.jpg");
+  --cor-titulo: #455A64;
+  --cor-preco: #607D8B;
+  --cor-botao: #CFD8DC;
+  --cor-fundo-card: #ECEFF1;
+  --cor-header: #ECEFF1;
+  --cor-texto: #263238;
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+
+/* 🎉 Tema Aniversário */
+body.aniversario {
+  background-image: linear-gradient(rgba(255, 223, 240, 0.85), rgba(255, 223, 240, 0.85)),
+    url("/imagens/aniversario/fundo-aniversario.jpg");
+  --cor-titulo: #D81B60;
+  --cor-preco: #F06292;
+  --cor-botao: #F8BBD0;
+  --cor-fundo-card: #FFF0F5;
+  --cor-header: #FCE4EC;
+  --cor-texto: #880E4F;
+  font-family: 'Baloo 2', 'Poppins', sans-serif;
+}

@@ -1,0 +1,22 @@
+/* containers.css */
+
+/* Container principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/* Grid de produtos */
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+/* Container para botões */
+.container-botao {
+  text-align: center;
+  margin-top: 3em;
+}

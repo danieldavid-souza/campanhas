@@ -1,0 +1,60 @@
+/* base.css */
+
+/* Tipografia padrão */
+body {
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--cor-texto, #333);
+  background-color: #fff;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cor-titulo, #222);
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--cor-titulo, #1976D2);
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--cor-botao, #64B5F6);
+}
+
+/* Botões */
+button {
+  background-color: var(--cor-botao, #1976D2);
+  color: #fff;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #1565C0;
+}
+
+/* Cards */
+.card {
+  background-color: var(--cor-fundo-card, #f9f9f9);
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Preços */
+.preco {
+  color: var(--cor-preco, #4CAF50);
+  font-weight: bold;
+  font-size: 1.2em;
+}

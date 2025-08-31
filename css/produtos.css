@@ -1,0 +1,59 @@
+/* produtos.css */
+
+/* Grid de produtos */
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+/* Card de produto */
+.card-produto {
+  background-color: var(--cor-fundo-card, #f9f9f9);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card-produto:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagem do produto */
+.card-produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1em;
+}
+
+/* Título do produto */
+.card-produto h3 {
+  font-size: 1.2em;
+  color: var(--cor-titulo, #333);
+  margin-bottom: 0.5em;
+}
+
+/* Preço do produto */
+.card-produto .preco {
+  font-size: 1.1em;
+  color: var(--cor-preco, #4CAF50);
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+/* Botão de ação */
+.card-produto button {
+  background-color: var(--cor-botao, #1976D2);
+  color: #fff;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card-produto button:hover {
+  background-color: #1565C0;
+}
