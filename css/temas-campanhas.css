@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
 /* ===============================
    Estilos Globais Adaptáveis por Tema
    =============================== */
@@ -148,6 +150,287 @@ body.aniversario .botao {
   color: white;
   border-radius: 25px;
   padding: 0.6em 1.2em;
+}
+
+.btn-whatsapp-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.btn-whatsapp-card:hover {
+  background-color: #1ebe5d;
+}
+
+.btn-whatsapp-card i {
+  font-size: 1.2rem;
+}
+
+/* Estilo base do botão WhatsApp */
+.btn-whatsapp-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #25D366; /* cor padrão */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.btn-whatsapp-card i {
+  font-size: 1.2rem;
+}
+
+/* 🎂 Aniversário */
+body.aniversario .btn-whatsapp-card {
+  background-color: #D81B60;
+}
+
+/* 🎀 Outubro Rosa */
+body.outubro-rosa .btn-whatsapp-card {
+  background-color: #EC407A;
+}
+
+/* 💙 Novembro Azul */
+body.novembro-azul .btn-whatsapp-card {
+  background-color: #1E88E5;
+}
+
+/* 👩‍👧 Dia das Mães */
+body.dia-das-maes .btn-whatsapp-card {
+  background-color: #F48FB1;
+}
+
+/* 👨‍👦 Dia dos Pais */
+body.dia-dos-pais .btn-whatsapp-card {
+  background-color: #90A4AE;
+}
+
+/* 🧸 Dia das Crianças */
+body.dia-das-criancas .btn-whatsapp-card {
+  background-color: #FFB74D;
+}
+
+/* 🎄 Natal */
+body.natal .btn-whatsapp-card {
+  background-color: #C62828;
+}
+
+/* 🐰 Páscoa */
+body.pascoa .btn-whatsapp-card {
+  background-color: #8E24AA;
+}
+
+/* 🤝 Dia do Cliente */
+body.dia-do-cliente .btn-whatsapp-card {
+  background-color: #43A047;
+}
+
+/* 🫂 Dia do Amigo */
+body.dia-do-amigo .btn-whatsapp-card {
+  background-color: #00ACC1;
+}
+
+/* 🌷 Dia da Mulher */
+body.dia-da-mulher .btn-whatsapp-card {
+  background-color: #F06292;
+}
+
+/* 📚 Dia dos Professores */
+body.dia-dos-professores .btn-whatsapp-card {
+  background-color: #5E35B1;
+}
+
+/* 🛍️ Black Friday */
+body.black-friday .btn-whatsapp-card {
+  background-color: #212121;
+}
+
+/* ⭐ Campanha Avulsa */
+body.campanha-avulsa .btn-whatsapp-card {
+  background-color: #607D8B;
+}
+
+/* ✏️ Volta às Aulas */
+body.volta-as-aulas .btn-whatsapp-card {
+  background-color: #1976D2;
+}
+
+/* ❤️ Dia dos Namorados */
+body.dia-dos-namorados .btn-whatsapp-card {
+  background-color: #E91E63;
+}
+
+/* 🧓 Dia dos Avós */
+body.dia-dos-avos .btn-whatsapp-card {
+  background-color: #A1887F;
+}
+
+/* 🎂 Aniversário */
+body.aniversario .btn-whatsapp-card {
+  background-color: #D81B60;
+}
+body.aniversario .btn-whatsapp-card:hover {
+  background-color: #AD1457;
+  color: #fff;
+}
+
+/* 🎀 Outubro Rosa */
+body.outubro-rosa .btn-whatsapp-card {
+  background-color: #EC407A;
+}
+body.outubro-rosa .btn-whatsapp-card:hover {
+  background-color: #C2185B;
+  color: #fff;
+}
+
+/* 💙 Novembro Azul */
+body.novembro-azul .btn-whatsapp-card {
+  background-color: #1E88E5;
+}
+body.novembro-azul .btn-whatsapp-card:hover {
+  background-color: #1565C0;
+  color: #fff;
+}
+
+/* 👩‍👧 Dia das Mães */
+body.dia-das-maes .btn-whatsapp-card {
+  background-color: #F48FB1;
+}
+body.dia-das-maes .btn-whatsapp-card:hover {
+  background-color: #EC407A;
+  color: #fff;
+}
+
+/* 👨‍👦 Dia dos Pais */
+body.dia-dos-pais .btn-whatsapp-card {
+  background-color: #90A4AE;
+}
+body.dia-dos-pais .btn-whatsapp-card:hover {
+  background-color: #607D8B;
+  color: #fff;
+}
+
+/* 🧸 Dia das Crianças */
+body.dia-das-criancas .btn-whatsapp-card {
+  background-color: #FFB74D;
+}
+body.dia-das-criancas .btn-whatsapp-card:hover {
+  background-color: #F57C00;
+  color: #fff;
+}
+
+/* 🎄 Natal */
+body.natal .btn-whatsapp-card {
+  background-color: #C62828;
+}
+body.natal .btn-whatsapp-card:hover {
+  background-color: #B71C1C;
+  color: #fff;
+}
+
+/* 🐰 Páscoa */
+body.pascoa .btn-whatsapp-card {
+  background-color: #8E24AA;
+}
+body.pascoa .btn-whatsapp-card:hover {
+  background-color: #6A1B9A;
+  color: #fff;
+}
+
+/* 🤝 Dia do Cliente */
+body.dia-do-cliente .btn-whatsapp-card {
+  background-color: #43A047;
+}
+body.dia-do-cliente .btn-whatsapp-card:hover {
+  background-color: #2E7D32;
+  color: #fff;
+}
+
+/* 🫂 Dia do Amigo */
+body.dia-do-amigo .btn-whatsapp-card {
+  background-color: #00ACC1;
+}
+body.dia-do-amigo .btn-whatsapp-card:hover {
+  background-color: #00838F;
+  color: #fff;
+}
+
+/* 🌷 Dia da Mulher */
+body.dia-da-mulher .btn-whatsapp-card {
+  background-color: #F06292;
+}
+body.dia-da-mulher .btn-whatsapp-card:hover {
+  background-color: #E91E63;
+  color: #fff;
+}
+
+/* 📚 Dia dos Professores */
+body.dia-dos-professores .btn-whatsapp-card {
+  background-color: #5E35B1;
+}
+body.dia-dos-professores .btn-whatsapp-card:hover {
+  background-color: #4527A0;
+  color: #fff;
+}
+
+/* 🛍️ Black Friday */
+body.black-friday .btn-whatsapp-card {
+  background-color: #212121;
+}
+body.black-friday .btn-whatsapp-card:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ⭐ Campanha Avulsa */
+body.campanha-avulsa .btn-whatsapp-card {
+  background-color: #607D8B;
+}
+body.campanha-avulsa .btn-whatsapp-card:hover {
+  background-color: #455A64;
+  color: #fff;
+}
+
+/* ✏️ Volta às Aulas */
+body.volta-as-aulas .btn-whatsapp-card {
+  background-color: #1976D2;
+}
+body.volta-as-aulas .btn-whatsapp-card:hover {
+  background-color: #0D47A1;
+  color: #fff;
+}
+
+/* ❤️ Dia dos Namorados */
+body.dia-dos-namorados .btn-whatsapp-card {
+  background-color: #E91E63;
+}
+body.dia-dos-namorados .btn-whatsapp-card:hover {
+  background-color: #C2185B;
+  color: #fff;
+}
+
+/* 🧓 Dia dos Avós */
+body.dia-dos-avos .btn-whatsapp-card {
+  background-color: #A1887F;
+}
+body.dia-dos-avos .btn-whatsapp-card:hover {
+  background-color: #6D4C41;
+  color: #fff;
 }
 
 /* ===============================

@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
             target="_blank" 
             class="btn-whatsapp-card"
           >
-            📤 WhatsApp
+            <i class="fab fa-whatsapp"></i> WhatsApp
           </a>
         `;
         container.appendChild(card);
