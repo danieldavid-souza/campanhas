@@ -2,6 +2,8 @@ const form = document.getElementById("form-produto");
 const lista = document.getElementById("lista-produtos");
 const btnExportar = document.getElementById("btn-exportar");
 const campanhaSelect = document.getElementById("campanha");
+const nomeArquivoInput = document.getElementById("nome-arquivo");
+const mensagemSucesso = document.getElementById("mensagem-sucesso");
 
 let produtos = [];
 let cardEmEdicao = null;
@@ -26,12 +28,13 @@ form.addEventListener("submit", (e) => {
     return;
   }
 
-  if (isNaN(parseFloat(preco))) {
+  const precoFloat = parseFloat(preco);
+  if (isNaN(precoFloat) || precoFloat < 0) {
     alert("Digite um preço válido.");
     return;
   }
 
-  const produto = { nome, categoria, preco, imagem, descricao, campanha };
+  const produto = { nome, categoria, preco: precoFloat.toFixed(2), imagem, descricao, campanha };
 
   if (cardEmEdicao !== null) {
     produtos[cardEmEdicao] = produto;
@@ -56,15 +59,11 @@ function renderizarProdutos() {
     "Dia dos Pais": "👨‍👦",
     "Dia das Crianças": "🧸",
     "Natal": "🎄",
-    "Páscoa": "🐰",
-    "Dia do Cliente": "🤝",
     "Dia do Amigo": "🫂",
-    "Dia da Mulher": "🌷",
     "Dia dos Professores": "📚",
-    "Black Friday": "🛍️",
     "Campanha Avulsa": "⭐",
-    "Volta às Aulas": "✏️",
-    "Dia dos Namorados": "❤️"
+    "Dia dos Namorados": "❤️",
+    "Nascimento": "👶"
   };
 
   produtos.forEach((produto, index) => {
@@ -95,6 +94,14 @@ function renderizarProdutos() {
 
     lista.appendChild(card);
   });
+
+  mensagemSucesso.classList.add("visivel");
+  mensagemSucesso.textContent = "✅ Produto adicionado com sucesso!";
+
+  // Oculta automaticamente após 3 segundos
+  setTimeout(() => {
+    mensagemSucesso.classList.remove("visivel");
+  }, 3000);
 
   document.querySelectorAll(".btn-editar").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -143,13 +150,14 @@ btnExportar.addEventListener("click", () => {
     return;
   }
 
+  const nomeArquivo = nomeArquivoInput.value.trim() || `${campanhaSelecionada}.json`;
   const json = JSON.stringify(produtosFiltrados, null, 2);
   const blob = new Blob([json], { type: "application/json" });
   const url = URL.createObjectURL(blob);
 
   const a = document.createElement("a");
   a.href = url;
-  a.download = `${campanhaSelecionada}.json`;
+  a.download = nomeArquivo;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);

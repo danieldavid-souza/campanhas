@@ -107,11 +107,11 @@ body.dia-dos-professores {
 }
 
 body.dia-das-criancas {
-  background-image: linear-gradient(rgba(255, 243, 224, 0.85), rgba(255, 243, 224, 0.85)),
+  background-image: linear-gradient(rgba(255, 243, 224, 0.99), rgba(255, 243, 224, 0.99)),
     url("/imagens/criancas/fundo-dia-das-criancas.jpg");
-  --cor-titulo: #FDD835;
+  --cor-titulo: #cfae17;
   --cor-preco: #FF7043;
-  --cor-botao: #FFCCBC;
+  --cor-botao: #d6542d;
   --cor-fundo-card: #FFF9C4;
   --cor-header: #FFFDE7;
   --cor-texto: #F57C00;

@@ -7,46 +7,84 @@
   <link rel="stylesheet" href="/css/cadastro.css" />
 </head>
 <body>
-  <h1>📦 Cadastro de Produtos por Campanha</h1>
+  <main>
+    <h1>📦 Cadastro de Produtos por Campanha</h1>
 
-  <form id="form-produto">
-    <input type="text" id="nome" placeholder="Nome do produto" required />
-    <input type="text" id="categoria" placeholder="Categoria" required />
-    <input type="text" id="preco" placeholder="Preço (ex: 49.90)" required />
-    <input type="text" id="imagem" placeholder="Imagem (ex: imagens/buque.jpg)" required />
-    <textarea id="descricao" placeholder="Descrição do produto" rows="3" required></textarea>
+    <form id="form-produto" autocomplete="off">
+      <label for="nome">Nome do produto:</label>
+      <input type="text" id="nome" placeholder="Nome do produto" required />
 
-    <select id="campanha" required>
-      <option value="">Selecione a campanha</option>
-      <option value="dia-das-maes">Dia das Mães</option>
-      <option value="dia-do-amigo">Dia do Amigo</option>
-      <option value="dia-dos-avos">Dia dos Avós</option>
-      <option value="dia-dos-namorados">Dia dos Namorados</option>
-      <option value="dia-dos-pais">Dia dos Pais</option>
-      <option value="dia-dos-professores">Dia dos Professores</option>
-      <option value="dia-das-criancas">Dia das Crianças</option>
-      <option value="natal">Natal</option>
-      <option value="aniversario">Aniversario</option>
-      <option value="outubro-rosa">Outubro Rosa</option>
-      <option value="novembro-azul">Novembro Azul</option>
-      <option value="nascimento">Nascimento</option>
-      <option value="avulsa">Campanha Avulsa</option>
-    </select>
+      <label for="categoria">Categoria:</label>
+      <input type="text" id="categoria" placeholder="Categoria" required />
 
-    <button type="submit">➕ Adicionar Produto</button>
-  </form>
+      <label for="preco">Preço:</label>
+      <input type="number" id="preco" placeholder="Preço (ex: 49.90)" step="0.01" min="0" required />
 
-  <hr />
+      <label for="imagem">Imagem:</label>
+      <input type="text" id="imagem" placeholder="Imagem (ex: imagens/buque.jpg)" required />
 
-  <h2>🗂️ Produtos cadastrados</h2>
-  <ul id="lista-produtos"></ul>
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" placeholder="Descrição do produto" rows="3" required></textarea>
 
-  <button id="btn-exportar">📤 Exportar JSON da campanha</button>
+      <label for="campanha">Campanha:</label>
+      <select id="campanha" required>
+        <option value="">Selecione a campanha</option>
+        <option value="dia-das-maes">Dia das Mães</option>
+        <option value="dia-do-amigo">Dia do Amigo</option>
+        <option value="dia-dos-avos">Dia dos Avós</option>
+        <option value="dia-dos-namorados">Dia dos Namorados</option>
+        <option value="dia-dos-pais">Dia dos Pais</option>
+        <option value="dia-dos-professores">Dia dos Professores</option>
+        <option value="dia-das-criancas">Dia das Crianças</option>
+        <option value="natal">Natal</option>
+        <option value="aniversario">Aniversário</option>
+        <option value="outubro-rosa">Outubro Rosa</option>
+        <option value="novembro-azul">Novembro Azul</option>
+        <option value="nascimento">Nascimento</option>
+        <option value="avulsa">Campanha Avulsa</option>
+      </select>
 
-  <div style="text-align: center; margin-top: 2em;">
-    <a href="../index.html" class="btn-voltar">⬅ Voltar para o início</a>
-  </div>
+      <button type="submit">➕ Adicionar Produto</button>
+    </form>
 
+    <hr />
+
+    <section>
+      <h2>🗂️ Produtos cadastrados</h2>
+      <ul id="lista-produtos"></ul>
+
+      <div class="area-exportacao">
+      <div class="campo-nome-arquivo">
+        <label for="nome-arquivo">📁 Nome do arquivo:</label>
+        <input type="text" id="nome-arquivo" placeholder="ex: campanha-natal.json" />
+      </div>
+
+      <p id="mensagem-sucesso" class="mensagem-sucesso oculto">✅ Produto adicionado com sucesso!</p>
+
+    </div>
+
+      <button id="btn-exportar">📤 Exportar JSON da campanha</button>
+    </section>
+
+    <div id="mensagem-sucesso" style="color: green; margin-top: 10px;"></div>
+
+    <div class="preview-container">
+      <label for="preview-imagem">🖼️ Pré Visualização da Imagem:</label>
+      <img id="preview-imagem" alt="Preview da imagem do produto" />
+    </div>
+
+    <div style="text-align: center; margin-top: 2em;">
+      <a href="../index.html" class="btn-voltar">⬅ Voltar para o início</a>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('imagem').addEventListener('input', function () {
+      const preview = document.getElementById('preview-imagem');
+      preview.src = this.value;
+      preview.alt = "Preview de " + this.value.split('/').pop();
+    });
+  </script>
   <script src="/js/cadastro.js"></script>
 </body>
 </html>

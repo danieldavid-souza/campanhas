@@ -222,7 +222,8 @@ body.dia-dos-pais .btn-whatsapp-card {
 
 /* 🧸 Dia das Crianças */
 body.dia-das-criancas .btn-whatsapp-card {
-  background-color: #FFB74D;
+  background-color: #9e6f28;
+  color: var(--cor-texto);
 }
 
 /* 🎄 Natal */
@@ -328,10 +329,11 @@ body.dia-dos-pais .btn-whatsapp-card:hover {
 /* 🧸 Dia das Crianças */
 body.dia-das-criancas .btn-whatsapp-card {
   background-color: #FFB74D;
+  color: var(--cor-texto);
 }
 body.dia-das-criancas .btn-whatsapp-card:hover {
-  background-color: #F57C00;
-  color: #fff;
+  background-color: #f8c38e;
+  color: var(--cor-texto);
 }
 
 /* 🎄 Natal */

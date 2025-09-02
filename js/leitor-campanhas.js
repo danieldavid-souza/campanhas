@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("🚫 Botão Voltar ocultado em produção");
   }
 
-  // 🔍 Lógica de campanha e carregamento de produtos
+  // Lógica de campanha
   const caminho = window.location.pathname;
   const nomeArquivo = caminho.split("/").pop();
   const campanha = nomeArquivo.replace(".html", "");
@@ -22,27 +22,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const container = document.getElementById("produtos-container");
 
-  // 🔄 Carrega os produtos da campanha
+  // Carrega os produtos
   fetch(`/data/${campanha}.json`)
     .then(res => res.json())
     .then(produtos => {
       const iconesCampanha = {
-        "Aniversário": "🎂",
-        "Outubro Rosa": "🎀",
-        "Novembro Azul": "💙",
-        "Dia das Mães": "👩‍👧",
-        "Dia dos Pais": "👨‍👦",
-        "Dia das Crianças": "🧸",
-        "Natal": "🎄",
-        "Páscoa": "🐰",
-        "Dia do Cliente": "🤝",
-        "Dia do Amigo": "🫂",
-        "Dia da Mulher": "🌷",
-        "Dia dos Professores": "📚",
-        "Black Friday": "🛍️",
-        "Campanha Avulsa": "⭐",
-        "Volta às Aulas": "✏️",
-        "Dia dos Namorados": "❤️"
+        "Aniversário": "🎂", "Outubro Rosa": "🎀", "Novembro Azul": "💙",
+        "Dia das Mães": "👩‍👧", "Dia dos Pais": "👨‍👦", "Dia das Crianças": "🧸",
+        "Natal": "🎄", "Páscoa": "🐰", "Dia do Cliente": "🤝", "Dia do Amigo": "🫂",
+        "Dia da Mulher": "🌷", "Dia dos Professores": "📚", "Black Friday": "🛍️",
+        "Campanha Avulsa": "⭐", "Volta às Aulas": "✏️", "Dia dos Namorados": "❤️"
       };
 
       produtos.forEach(p => {
@@ -52,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const icone = iconesCampanha[p.campanha] || "🛒";
 
         card.innerHTML = `
-          <img src="../${p.imagem}" alt="${p.nome}" />
+          <img src="../${p.imagem}" alt="${p.nome}" class="zoom-produto" data-nome="${p.nome}" />
           <h3 class="nome-produto">${icone} ${p.nome}</h3>
           <p class="descricao-produto">Descrição: ${p.descricao}</p>
           <p class="campanha">${p.campanha}</p>
@@ -68,14 +57,16 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         container.appendChild(card);
       });
+
       console.log("✅ Produtos carregados:", produtos);
+      inicializarLightbox(); // 🔍 Ativa o lightbox após renderizar os produtos
     })
     .catch(err => {
       container.innerHTML = `<p style="color: red;">Erro ao carregar produtos: ${err.message}</p>`;
       console.error("❌ Erro ao carregar JSON:", err);
     });
 
-  // 🔗 Botão WhatsApp principal
+  // Botão WhatsApp principal
   const botaoWhatsApp = document.getElementById("botao-whatsapp");
   if (botaoWhatsApp) {
     const mensagem = `Confira essa campanha incrível: ${urlCampanha}`;
@@ -83,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
     botaoWhatsApp.setAttribute("target", "_blank");
   }
 
-  // 📤 Modal de Compartilhamento
+  // Modal de Compartilhamento
   const botaoCompartilhar = document.getElementById("botao-compartilhar");
   const modal = document.getElementById("modal-compartilhar");
   const fecharModal = document.getElementById("fechar-modal");
@@ -95,15 +86,11 @@ document.addEventListener("DOMContentLoaded", () => {
     `📦 Olá! Segue o catálogo da campanha ${nomeFormatado} com todos os produtos disponíveis:\n👉 ${urlCampanha}\nQualquer dúvida ou interesse, é só clicar no botão de WhatsApp em cada produto!`;
 
   if (botaoCompartilhar && modal) {
-    botaoCompartilhar.addEventListener("click", () => {
-      modal.style.display = "flex";
-    });
+    botaoCompartilhar.addEventListener("click", () => modal.style.display = "flex");
   }
 
   if (fecharModal) {
-    fecharModal.addEventListener("click", () => {
-      modal.style.display = "none";
-    });
+    fecharModal.addEventListener("click", () => modal.style.display = "none");
   }
 
   if (btnWhatsApp) {
@@ -137,5 +124,85 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("❌ Compartilhamento nativo não suportado neste navegador.");
       }
     });
+  }
+
+  // 🖼️ Função de Lightbox
+  function inicializarLightbox() {
+  const imagens = Array.from(document.querySelectorAll(".zoom-produto"));
+  let indexAtual = 0;
+
+  const overlay = document.createElement("div");
+  overlay.id = "lightbox-overlay";
+  overlay.style.cssText = `
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85); display: none; justify-content: center; align-items: center;
+    z-index: 9999; flex-direction: column; gap: 10px;
+  `;
+
+  const imgZoom = document.createElement("img");
+  imgZoom.id = "lightbox-img";
+  imgZoom.style.cssText = "max-width: 90%; max-height: 80%; border-radius: 8px;";
+
+  const controles = document.createElement("div");
+  controles.style.cssText = "display: flex; gap: 20px; justify-content: center;";
+
+  const btnFechar = document.createElement("button");
+  btnFechar.textContent = "✖";
+  btnFechar.title = "Fechar";
+  btnFechar.style.cssText = "font-size: 24px; background: none; color: white; border: none; cursor: pointer;";
+
+  const btnAnterior = document.createElement("button");
+  btnAnterior.textContent = "←";
+  btnAnterior.title = "Anterior";
+  btnAnterior.style.cssText = "font-size: 24px; background: none; color: white; border: none; cursor: pointer;";
+
+  const btnProximo = document.createElement("button");
+  btnProximo.textContent = "→";
+  btnProximo.title = "Próximo";
+  btnProximo.style.cssText = "font-size: 24px; background: none; color: white; border: none; cursor: pointer;";
+
+  controles.appendChild(btnAnterior);
+  controles.appendChild(btnFechar);
+  controles.appendChild(btnProximo);
+
+  overlay.appendChild(imgZoom);
+  overlay.appendChild(controles);
+  document.body.appendChild(overlay);
+
+  function abrirLightbox(index) {
+    indexAtual = index;
+    imgZoom.src = imagens[indexAtual].src;
+    overlay.style.display = "flex";
+  }
+
+  function fecharLightbox() {
+    overlay.style.display = "none";
+  }
+
+  function navegar(direcao) {
+    indexAtual = (indexAtual + direcao + imagens.length) % imagens.length;
+    imgZoom.src = imagens[indexAtual].src;
+  }
+
+  imagens.forEach((img, i) => {
+    img.style.cursor = "zoom-in";
+    img.addEventListener("click", () => abrirLightbox(i));
+  });
+
+  btnFechar.addEventListener("click", fecharLightbox);
+  btnAnterior.addEventListener("click", () => navegar(-1));
+  btnProximo.addEventListener("click", () => navegar(1));
+
+  overlay.addEventListener("click", e => {
+    if (e.target === overlay) fecharLightbox();
+  });
+
+  document.addEventListener("keydown", e => {
+    if (overlay.style.display === "flex") {
+      if (e.key === "ArrowRight") navegar(1);
+      if (e.key === "ArrowLeft") navegar(-1);
+      if (e.key === "Escape") fecharLightbox();
+    }
+  });
   }
 });

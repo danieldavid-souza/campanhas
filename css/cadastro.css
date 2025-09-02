@@ -161,3 +161,80 @@ form button:hover {
     width: 100%;
   }
 }
+
+.area-exportacao {
+  max-width: 500px; /* ou qualquer valor que funcione bem no seu layout */
+  margin: 30px auto; /* centraliza horizontalmente */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.campo-nome-arquivo {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo-nome-arquivo label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.campo-nome-arquivo input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.mensagem-sucesso {
+  text-align: center;
+  font-size: 16px;
+  color: #2e7d32;
+  background-color: #e6ffe6;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.mensagem-sucesso.visivel {
+  display: block;
+  opacity: 1;
+}
+
+.preview-container {
+  max-width: 400px; /* Limita a largura */
+  margin: 30px auto; /* Centraliza horizontalmente */
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.preview-container label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#preview-imagem {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  object-fit: contain;
+}
