@@ -1,0 +1,34 @@
+[
+  {
+    "nome": "Caneca Outubro Rosa – “Você é Forte” 🎀",
+    "descricao": "Caneca personalizada com mensagem de apoio e empoderamento. Capacidade 325ml. Ideal para presentear com carinho.",
+    "categoria": "Outubro Rosa",
+    "preco": 38.00,
+    "imagem": "imagens/outubro/caneca-voce-e-forte.jpg",
+    "campanha": "Outubro Rosa"
+  },
+  {
+    "nome": "Camisa Outubro Rosa – “Juntas Somos Mais Fortes” 👚",
+    "descricao": "Camisa rosa com estampa inspiradora. Tecido leve e confortável, perfeita para ações de conscientização.",
+    "categoria": "Outubro Rosa",
+    "preco": 45.00,
+    "imagem": "imagens/outubro/camisa-juntas.jpg",
+    "campanha": "Outubro Rosa"
+  },
+  {
+    "nome": "Azulejo Decorativo – “A Vida é um Presente” 💝",
+    "descricao": "Azulejo 20x20cm com arte delicada e mensagem de esperança. Um toque especial para decorar e inspirar.",
+    "categoria": "Outubro Rosa",
+    "preco": 40.00,
+    "imagem": "imagens/outubro/azulejo-presente.jpg",
+    "campanha": "Outubro Rosa"
+  },
+  {
+    "nome": "Kit Outubro Rosa – Camisa + Caneca + Azulejo 🎁",
+    "descricao": "Kit completo para presentear com amor e apoiar a causa. Inclui camisa, caneca e azulejo personalizado.",
+    "categoria": "Outubro Rosa",
+    "preco": 128.00,
+    "imagem": "imagens/outubro/kit-completo.jpg",
+    "campanha": "Outubro Rosa"
+  }
+]

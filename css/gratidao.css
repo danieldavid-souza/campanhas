@@ -1,0 +1,20 @@
+.grid-campanha {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card-produto {
+  background-color: #fff;
+  border: 2px solid #fbc02d;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card-produto:hover {
+  transform: translateY(-5px);
+}

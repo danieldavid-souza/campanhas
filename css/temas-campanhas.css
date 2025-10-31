@@ -290,6 +290,26 @@ body.aniversario .btn-whatsapp-card:hover {
   color: #fff;
 }
 
+/* 💛 Setembro Amarelo */
+body.setembro-amarelo .btn-whatsapp-card {
+  background-color: #FDD835; /* Amarelo vibrante */
+  color: #292929; /* Cinza médio */
+}
+
+body.setembro-amarelo .card-produto {
+  border-color: #FDD835;
+}
+
+body.setembro-amarelo h1,
+body.setembro-amarelo h2 {
+  color: #FBC02D;
+}
+
+body.setembro-amarelo .btn-whatsapp-card:hover {
+  background-color: #FBC02D; /* Tom mais escuro no hover */
+  color: #080808; /* Prento*/
+}
+
 /* 🎀 Outubro Rosa */
 body.outubro-rosa .btn-whatsapp-card {
   background-color: #EC407A;
@@ -342,7 +362,12 @@ body.natal .btn-whatsapp-card {
 }
 body.natal .btn-whatsapp-card:hover {
   background-color: #B71C1C;
-  color: #fff;
+  color:var(--cor-texto);
+}
+
+/* 🎄 Natal */
+body.natal .preco {
+  color: #2e7d32; /* Verde escuro */
 }
 
 /* 🐰 Páscoa */
@@ -351,7 +376,7 @@ body.pascoa .btn-whatsapp-card {
 }
 body.pascoa .btn-whatsapp-card:hover {
   background-color: #6A1B9A;
-  color: #fff;
+  color:var(--cor-texto);
 }
 
 /* 🤝 Dia do Cliente */
@@ -433,6 +458,22 @@ body.dia-dos-avos .btn-whatsapp-card {
 body.dia-dos-avos .btn-whatsapp-card:hover {
   background-color: #6D4C41;
   color: #fff;
+}
+
+/* 🌟 Gratidão */
+body.gratidao .btn-whatsapp-card {
+  background-color: #fbc02d;
+}
+body.gratidao .btn-whatsapp-card:hover {
+  background-color: #f9a825;
+  color: #fff;
+}
+body.gratidao h1,
+body.gratidao h2 {
+  color: #f9a825;
+}
+body.gratidao .card-produto {
+  border-color: #fbc02d;
 }
 
 /* ===============================

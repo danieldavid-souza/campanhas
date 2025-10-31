@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "💜 Caneca Motivacional Lilás — “Faça dos seus sonhos um objetivo” 💜 ☕🌟",
+    "descricao": "Comece o dia com motivação e charme! Esta linda caneca lilás traz uma mensagem inspiradora que te lembra diariamente da importância de transformar sonhos em metas. ✨ Perfeita para: quem ama começar o dia com positividade e beleza!",
+    "categoria": "Gratidão",
+    "preco": 38.00,
+    "imagem": "imagens/gratidao/caneca-diferenca.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "🌼 Caneca Motivacional Floral — “Não importa o tamanho das suas asas...” 🌼 🧡",
+    "descricao": "Uma peça cheia de significado e leveza! Com uma linda estampa de borboleta e flores em tons suaves, esta camiseta traz a mensagem perfeita para quem acredita na força da superação e no valor do processo para alcançar seus sonhos.",
+    "categoria": "Gratidão",
+    "preco": 38.00,
+    "imagem": "imagens/gratidao/caneca-gratidao.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "🦋 Camiseta Motivacional – “Só vive o propósito quem suporta o processo” 🦋 👕✨",
+    "descricao": "Transmita força, fé e propósito com esta linda camiseta estampada com a frase inspiradora: Só vive o propósito quem suporta o processo. 💡 Perfeita para: uso diário, presentear alguém especial ou transmitir motivação com estilo.",
+    "categoria": "Gratidão",
+    "preco": 40.00,
+    "imagem": "imagens/gratidao/camisa-proposito.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "🌸 Chaveiro Motivacional –  Faça dos seus sonhos um objetivo Transforme inspiração em companhia diária! ✨ 🔑💛",
+    "descricao": "Nosso chaveiro personalizado traz a mensagem “Faça dos seus sonhos um objetivo”, perfeita para lembrar que cada passo conta rumo às suas conquistas. 💖 Perfeito para: lembrancinhas, presentes motivacionais, brindes corporativos ou para deixar suas chaves com mais estilo e significado.",
+    "categoria": "Gratidão",
+    "preco": 5.00,
+    "imagem": "imagens/gratidao/chaveiro-diferenca.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "☕ Caneca Religiosa – Entrega o teu caminho ao Senhor... ✨ 🎁🌼",
+    "descricao": "Comece o dia com fé, esperança e uma boa dose de café! 🙏☕ Esta caneca inspiradora traz o versículo de Salmos 37:5: Entrega o teu caminho ao Senhor, confia nele, e o mais Ele fará. 🌼 Perfeita para:Presentes cristãos. Lembrancinhas de eventos religiosos. Uso diário em casa, no trabalho ou no devocional. Leve fé e positividade para todos os momentos do seu dia com essa linda caneca personalizada! ✨",
+    "categoria": "Gratidão",
+    "preco": 38.00,
+    "imagem": "imagens/gratidao/caneca-salmo.jpg",
+    "campanha": "Gratidão"
+  }
+]

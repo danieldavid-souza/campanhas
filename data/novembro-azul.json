@@ -1,0 +1,34 @@
+[
+  {
+    "nome": "Caneca Novembro Azul – “Cuide-se” 💙",
+    "descricao": "Caneca personalizada com mensagem de prevenção e autocuidado. Capacidade 325ml. Ideal para presentear com propósito.",
+    "categoria": "Novembro Azul",
+    "preco": 38.00,
+    "imagem": "imagens/novembro/caneca-cuide-se.jpg",
+    "campanha": "Novembro Azul"
+  },
+  {
+    "nome": "Camisa Novembro Azul – “Homem que se cuida” 👕",
+    "descricao": "Camisa azul com estampa de conscientização. Tecido leve e confortável, perfeita para ações de saúde.",
+    "categoria": "Novembro Azul",
+    "preco": 45.00,
+    "imagem": "imagens/novembro/camisa-homem-cuida.jpg",
+    "campanha": "Novembro Azul"
+  },
+  {
+    "nome": "Azulejo Decorativo – “Prevenir é um ato de amor” 🧠",
+    "descricao": "Azulejo 20x20cm com arte de apoio à saúde masculina. Um presente que inspira cuidado e atenção.",
+    "categoria": "Novembro Azul",
+    "preco": 40.00,
+    "imagem": "imagens/novembro/azulejo-prevencao.jpg",
+    "campanha": "Novembro Azul"
+  },
+  {
+    "nome": "Kit Novembro Azul – Camisa + Caneca + Azulejo 🎁",
+    "descricao": "Kit completo para ações de conscientização. Inclui camisa, caneca e azulejo com mensagens de apoio.",
+    "categoria": "Novembro Azul",
+    "preco": 128.00,
+    "imagem": "imagens/novembro/kit-completo.jpg",
+    "campanha": "Novembro Azul"
+  }
+]

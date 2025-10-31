@@ -1,20 +1,66 @@
 [
   {
-    "nome": "Caixa de Chocolates Gourmet",
-    "descricao": "Bombons artesanais com recheios variados.",
-    "preco": "R$ 69,90",
-    "imagem": "../imagens/namorados/chocolates.jpg"
+    "nome": "Caneca Personalizada – Te Amo 💖",
+    "descricao": "Caneca com mensagem romântica e espaço para foto personalizada. Capacidade 325ml.",
+    "categoria": "Dia dos Namorados",
+    "preco": 38.00,
+    "imagem": "imagens/namorados/caneca-te-amo.jpg",
+    "campanha": "Dia dos Namorados"
   },
   {
-    "nome": "Jantar Romântico",
-    "descricao": "Voucher para restaurante com menu especial.",
-    "preco": "R$ 189,90",
-    "imagem": "../imagens/namorados/jantar.jpg"
+    "nome": "Kit Amor Completo – Camisa + Caneca + Azulejo 💝",
+    "descricao": "Kit especial com camisa personalizada, caneca e azulejo decorativo 20x20cm. Ideal para surpreender quem você ama.",
+    "categoria": "Dia dos Namorados",
+    "preco": 128.00,
+    "imagem": "imagens/namorados/kit-amor.jpg",
+    "campanha": "Dia dos Namorados"
   },
   {
-    "nome": "Almofada Personalizada",
-    "descricao": "Com foto e frase especial.",
-    "preco": "R$ 49,90",
-    "imagem": "../imagens/namorados/almofada.jpg"
+    "nome": "Azulejo Decorativo – “Você é Meu Porto Seguro” ⚓❤️",
+    "descricao": "Azulejo de cerâmica com frase romântica e arte personalizada. Perfeito para presentear com emoção.",
+    "categoria": "Dia dos Namorados",
+    "preco": 40.00,
+    "imagem": "imagens/namorados/azulejo-porto-seguro.jpg",
+    "campanha": "Dia dos Namorados"
+  },
+  {
+    "nome": "Camisa Casal – “Metade de Mim” 👕❤️👕",
+    "descricao": "Camisas combinando para casais, com frases complementares e design apaixonado. Tecido leve e confortável.",
+    "categoria": "Dia dos Namorados",
+    "preco": 90.00,
+    "imagem": "imagens/namorados/camisa-casal.jpg",
+    "campanha": "Dia dos Namorados"
+  },
+  {
+    "nome": "Chaveiro Coração – “Juntos Sempre” 🔑💘",
+    "descricao": "Chaveiro em formato de coração com gravação personalizada. Pequeno gesto, grande significado.",
+    "categoria": "Dia dos Namorados",
+    "preco": 15.00,
+    "imagem": "imagens/namorados/chaveiro-coracao.jpg",
+    "campanha": "Dia dos Namorados"
+  },
+  {
+    "nome": "Azulejo Decorativo – “Você é Meu Porto Seguro” ⚓❤️",
+    "descricao": "Azulejo de cerâmica com frase romântica e arte personalizada. Perfeito para presentear com emoção.",
+    "categoria": "Dia dos Namorados",
+    "preco": 40.00,
+    "imagem": "imagens/namorados/azulejo-porto-seguro.jpg",
+    "campanha": "Dia dos Namorados"
+  },
+  {
+    "nome": "Camisa Casal – “Metade de Mim” 👕❤️👕",
+    "descricao": "Camisas combinando para casais, com frases complementares e design apaixonado. Tecido leve e confortável.",
+    "categoria": "Dia dos Namorados",
+    "preco": 90.00,
+    "imagem": "imagens/namorados/camisa-casal.jpg",
+    "campanha": "Dia dos Namorados"
+  },
+  {
+    "nome": "Chaveiro Coração – “Juntos Sempre” 🔑💘",
+    "descricao": "Chaveiro em formato de coração com gravação personalizada. Pequeno gesto, grande significado.",
+    "categoria": "Dia dos Namorados",
+    "preco": 15.00,
+    "imagem": "imagens/namorados/chaveiro-coracao.jpg",
+    "campanha": "Dia dos Namorados"
   }
 ]

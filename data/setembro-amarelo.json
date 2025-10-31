@@ -1,0 +1,34 @@
+[
+  {
+    "nome": "Caneca Setembro Amarelo",
+    "descricao": "Caneca com mensagem de apoio e acolhimento. Capacidade 325ml.",
+    "categoria": "Setembro Amarelo",
+    "preco": 35.00,
+    "imagem": "imagens/setembro/caneca.jpg",
+    "campanha": "setembro"
+  },
+  {
+    "nome": "Camisa Consciente",
+    "descricao": "Camisa amarela com frase inspiradora. Tecido leve e confortável.",
+    "categoria": "Setembro Amarelo",
+    "preco": 45.00,
+    "imagem": "imagens/setembro/camisa.jpg",
+    "campanha": "setembro"
+  },
+  {
+    "nome": "Azulejo Decorativo",
+    "descricao": "Azulejo 20x20cm com arte de esperança e empatia.",
+    "categoria": "Setembro Amarelo",
+    "preco": 40.00,
+    "imagem": "imagens/setembro/kit.jpg",
+    "campanha": "setembro"
+  },
+  {
+    "nome": "Chaveiro de Apoio",
+    "descricao": "Chaveiro com frase de incentivo. Pequeno gesto, grande impacto.",
+    "categoria": "Setembro Amarelo",
+    "preco": 10.00,
+    "imagem": "imagens/setembro/caneca2.jpg",
+    "campanha": "setembro"
+  }
+]

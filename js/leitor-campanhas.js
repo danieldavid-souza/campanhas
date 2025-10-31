@@ -206,3 +206,67 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hostname = window.location.hostname.toLowerCase();
+  const emDesenvolvimento = hostname === "localhost" || hostname === "127.0.0.1";
+
+  // Botão Voltar só visível em desenvolvimento
+  const btnVoltar = document.getElementById("btn-voltar");
+  if (btnVoltar && !emDesenvolvimento) {
+    btnVoltar.style.display = "none";
+  } else if (btnVoltar) {
+    btnVoltar.addEventListener("click", () => {
+      window.location.href = "index.html";
+    });
+  }
+
+  // Compartilhamento
+  const botaoCompartilhar = document.getElementById("botao-compartilhar");
+  const modal = document.getElementById("modal-compartilhar");
+  const fecharModal = document.getElementById("fechar-modal");
+  const btnWhatsApp = document.getElementById("compartilhar-whatsapp");
+  const btnCopiar = document.getElementById("copiar-mensagem");
+  const btnNativo = document.getElementById("compartilhar-nativo");
+
+  const urlCampanha = window.location.href;
+  const nomeCampanha = document.title || "Campanha";
+  const mensagem = `📦 Olá! Confira a campanha ${nomeCampanha}:\n👉 ${urlCampanha}`;
+
+  if (botaoCompartilhar && modal) {
+    botaoCompartilhar.addEventListener("click", () => modal.style.display = "flex");
+  }
+
+  if (fecharModal) {
+    fecharModal.addEventListener("click", () => modal.style.display = "none");
+  }
+
+  if (btnWhatsApp) {
+    btnWhatsApp.addEventListener("click", () => {
+      const link = `https://wa.me/?text=${encodeURIComponent(mensagem)}`;
+      window.open(link, "_blank");
+    });
+  }
+
+  if (btnCopiar) {
+    btnCopiar.addEventListener("click", () => {
+      navigator.clipboard.writeText(mensagem).then(() => {
+        alert("📋 Link copiado para a área de transferência!");
+      });
+    });
+  }
+
+  if (btnNativo) {
+    btnNativo.addEventListener("click", () => {
+      if (navigator.share) {
+        navigator.share({
+          title: nomeCampanha,
+          text: mensagem,
+          url: urlCampanha
+        }).catch(err => console.error("Erro ao compartilhar:", err));
+      } else {
+        alert("❌ Compartilhamento nativo não suportado neste navegador.");
+      }
+    });
+  }
+});
