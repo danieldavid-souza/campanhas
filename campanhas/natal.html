@@ -24,6 +24,12 @@
     <header>
       <h1 class="titulo">🎄 Campanha de Natal</h1>
       <p class="descricao">Presentes que aquecem o coração e celebram o espírito natalino.</p>
+
+      <div class="container-botao" style="text-align: center; margin-top: 2em;">
+        <button id="botao-compartilhar" class="botao-compartilhar">
+          <span>🔗</span> Compartilhar
+        </button>
+      </div>
     </header>
 
     <div class="container">
@@ -32,11 +38,16 @@
         <div class="grid-produtos" id="produtos-container"></div>
       </section>
 
-      <div class="container-botao">
-        <button id="botao-compartilhar" class="botao-compartilhar">
-          <span>🔗</span> Compartilhar
-        </button>
-      </div>
+<!-- Modal de Compartilhamento -->
+<div id="modal-compartilhar" class="modal-compartilhar">
+    <div class="modal-conteudo">
+      <h2>Compartilhar Catálogo</h2>
+      <button id="compartilhar-whatsapp">📱 WhatsApp</button>
+      <button id="copiar-mensagem">📋 Copiar Mensagem</button>
+      <button id="compartilhar-nativo">📤 Compartilhar Nativo</button>
+      <button id="fechar-modal">❌ Fechar</button>
+    </div>
+  </div>
 
       <div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
         <a href="../index.html" id="btn-voltar" class="botao-voltar">⬅ Voltar para o início</a>
