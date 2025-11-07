@@ -1,42 +1,106 @@
 [
   {
     "nome": "💜 Caneca Motivacional Lilás — “Faça dos seus sonhos um objetivo” 💜 ☕🌟",
-    "descricao": "Comece o dia com motivação e charme! Esta linda caneca lilás traz uma mensagem inspiradora que te lembra diariamente da importância de transformar sonhos em metas. ✨ Perfeita para: quem ama começar o dia com positividade e beleza!",
+    "descricao": "Comece o dia com motivação e charme! Esta linda caneca lilás traz uma mensagem inspiradora que te lembra diariamente da importância de transformar sonhos em metas. Impressa por sublimação para cores vibrantes e durabilidade. Perfeita para quem ama começar o dia com positividade e beleza.",
     "categoria": "Gratidão",
-    "preco": 38.00,
+    "preco": 38.0,
     "imagem": "imagens/gratidao/caneca-diferenca.jpg",
     "campanha": "Gratidão"
   },
   {
     "nome": "🌼 Caneca Motivacional Floral — “Não importa o tamanho das suas asas...” 🌼 🧡",
-    "descricao": "Uma peça cheia de significado e leveza! Com uma linda estampa de borboleta e flores em tons suaves, esta camiseta traz a mensagem perfeita para quem acredita na força da superação e no valor do processo para alcançar seus sonhos.",
+    "descricao": "Uma peça cheia de significado e leveza! Com estampa floral e detalhes delicados, esta caneca transmite esperança e força para seguir adiante. Impressa por sublimação para acabamento de alta definição. Perfeita para presentear ou para o uso diário com estilo.",
     "categoria": "Gratidão",
-    "preco": 38.00,
+    "preco": 38.0,
     "imagem": "imagens/gratidao/caneca-gratidao.jpg",
     "campanha": "Gratidão"
   },
   {
     "nome": "🦋 Camiseta Motivacional – “Só vive o propósito quem suporta o processo” 🦋 👕✨",
-    "descricao": "Transmita força, fé e propósito com esta linda camiseta estampada com a frase inspiradora: Só vive o propósito quem suporta o processo. 💡 Perfeita para: uso diário, presentear alguém especial ou transmitir motivação com estilo.",
+    "descricao": "Transmita força, fé e propósito com esta camiseta estampada com a frase inspiradora: 'Só vive o propósito quem suporta o processo'. Estampa aplicada por sublimação (cores permanentes). Ideal para uso diário e presente significativo.",
     "categoria": "Gratidão",
-    "preco": 40.00,
+    "preco": 40.0,
     "imagem": "imagens/gratidao/camisa-proposito.jpg",
     "campanha": "Gratidão"
   },
   {
-    "nome": "🌸 Chaveiro Motivacional –  Faça dos seus sonhos um objetivo Transforme inspiração em companhia diária! ✨ 🔑💛",
-    "descricao": "Nosso chaveiro personalizado traz a mensagem “Faça dos seus sonhos um objetivo”, perfeita para lembrar que cada passo conta rumo às suas conquistas. 💖 Perfeito para: lembrancinhas, presentes motivacionais, brindes corporativos ou para deixar suas chaves com mais estilo e significado.",
+    "nome": "🌸 Chaveiro Motivacional – “Faça dos seus sonhos um objetivo” 🔑💛",
+    "descricao": "Nosso chaveiro personalizado traz a mensagem 'Faça dos seus sonhos um objetivo', perfeito para lembrar que cada passo conta rumo às suas conquistas. Produzido com impressão por sublimação para alta nitidez e resistência. Ideal como lembrancinha, brinde ou presente motivacional.",
     "categoria": "Gratidão",
-    "preco": 5.00,
+    "preco": 5.0,
     "imagem": "imagens/gratidao/chaveiro-diferenca.jpg",
     "campanha": "Gratidão"
   },
   {
-    "nome": "☕ Caneca Religiosa – Entrega o teu caminho ao Senhor... ✨ 🎁🌼",
-    "descricao": "Comece o dia com fé, esperança e uma boa dose de café! 🙏☕ Esta caneca inspiradora traz o versículo de Salmos 37:5: Entrega o teu caminho ao Senhor, confia nele, e o mais Ele fará. 🌼 Perfeita para:Presentes cristãos. Lembrancinhas de eventos religiosos. Uso diário em casa, no trabalho ou no devocional. Leve fé e positividade para todos os momentos do seu dia com essa linda caneca personalizada! ✨",
+    "nome": "☕ Caneca Religiosa — “Entrega o teu caminho ao Senhor” (Salmos 37:5)",
+    "descricao": "Comece o dia com fé e esperança. Caneca sublimada com o versículo de Salmos 37:5: 'Entrega o teu caminho ao Senhor, confia nele, e o mais Ele fará.' Impressão por sublimação que garante cores vibrantes e durabilidade. Ideal para devoção diária e presente cristão.",
     "categoria": "Gratidão",
-    "preco": 38.00,
+    "preco": 38.0,
     "imagem": "imagens/gratidao/caneca-salmo.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Azulejo Decorativo — “Em tudo dai graças” (1 Tessalonicenses 5:18)",
+    "descricao": "Azulejo decorativo sublimado com o versículo 'Em tudo dai graças' (1 Tessalonicenses 5:18). Cores alegres e tipografia delicada que iluminam qualquer ambiente. Produzido em cerâmica com impressão por sublimação para maior resistência e fidelidade de cor. Acompanha suporte para exposição — perfeito para decoração ou presente com significado.",
+    "categoria": "Gratidão",
+    "preco": 45.0,
+    "imagem": "imagens/gratidao/versiculos/azulejo1.png",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Azulejo Decorativo — “O Senhor é a minha luz e a minha salvação” (Salmos 27:1)",
+    "descricao": "Azulejo sublimado com o versículo Salmos 27:1. Design iluminado e acolhedor que lembra a presença e proteção divina. Feito em cerâmica com impressão por sublimação — cores duráveis e acabamento brilhante. Ideal para decorar parede, prateleira ou para presentear com fé.",
+    "categoria": "Gratidão",
+    "preco": 45.0,
+    "imagem": "imagens/gratidao/versiculos/azulejo2.png",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Azulejo Decorativo — “O Senhor é meu Pastor, nada me faltará” (Salmos 23:1)",
+    "descricao": "Azulejo sublimado com o Salmo 23:1. Transmita paz e confiança com esta peça decorativa de cerâmica, impressa por sublimação para garantir cores intensas e longa durabilidade. Acompanha suporte para fácil exposição em qualquer ambiente.",
+    "categoria": "Gratidão",
+    "preco": 45.0,
+    "imagem": "imagens/gratidao/versiculos/azulejo3.png",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Caneca Sublimada — “O caminho de Deus é perfeito” (Salmos 18:30)",
+    "descricao": "Caneca sublimada com o versículo Salmos 18:30: 'O caminho de Deus é perfeito'. Impressão por sublimação que mantém as cores vivas e a estampa resistente ao uso diário. Capacidade de 325 ml — compatível com micro-ondas e lava-louças. Um presente de fé para começar o dia com propósito.",
+    "categoria": "Gratidão",
+    "preco": 38.0,
+    "imagem": "imagens/gratidao/versiculos/caneca1.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Caneca Sublimada — “O Senhor lutará por você; tão somente creia” (Êxodo 14:14)",
+    "descricao": "Caneca sublimada com a mensagem de coragem e confiança de Êxodo 14:14. Impressão de alta definição para resistência e cores duradouras. Capacidade: 325 ml. Perfeita para presentear e para lembrar diariamente que Deus está ao seu lado.",
+    "categoria": "Gratidão",
+    "preco": 38.0,
+    "imagem": "imagens/gratidao/versiculos/caneca2.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Caneca Sublimada — “Entrega o teu caminho ao Senhor” (Salmos 37:5) — Versão colorida",
+    "descricao": "Caneca sublimada com Salmos 37:5 em design vibrante. Impressa por sublimação para alta fidelidade de cor e durabilidade. Capacidade de 325 ml, acabamento brilhante, ideal para uso diário, momentos de devoção e como lembrança significativa.",
+    "categoria": "Gratidão",
+    "preco": 38.0,
+    "imagem": "imagens/gratidao/versiculos/caneca3.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Kit Presente Sublimado — Salmos 23:1 (Azulejo + Caneca)",
+    "descricao": "Kit completo com azulejo e caneca sublimados com o versículo 'O Senhor é meu Pastor, nada me faltará' (Salmos 23:1). Perfeito para presentear com significado: peças combinam entre si e são produzidas por sublimação, garantindo cores vívidas e acabamento durável. Apresentação pronta para presente.",
+    "categoria": "Gratidão",
+    "preco": 78.0,
+    "imagem": "imagens/gratidao/versiculos/kit1.jpg",
+    "campanha": "Gratidão"
+  },
+  {
+    "nome": "Kit Presente Sublimado — Salmos 37:5 (Azulejo + Caneca)",
+    "descricao": "Kit sublimado com azulejo e caneca com o versículo Salmos 37:5. Uma composição perfeita para quem busca encorajar e inspirar com fé. Impressão por sublimação em ambas as peças, garantindo resistência, cores brilhantes e um presente marcante.",
+    "categoria": "Gratidão",
+    "preco": 78.0,
+    "imagem": "imagens/gratidao/versiculos/kit2.jpg",
     "campanha": "Gratidão"
   }
 ]
