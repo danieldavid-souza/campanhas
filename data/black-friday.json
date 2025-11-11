@@ -1,20 +1,98 @@
 [
   {
-    "nome": "Smartphone X10",
-    "descricao": "Tela AMOLED, 128GB, câmera tripla.",
-    "preco": "R$ 1.299,00",
-    "imagem": "../imagens/black-friday/smartphone.jpg"
+    "nome": "Caneca de Porcelana Branca 325ml",
+    "categoria": "Canecas",
+    "descricao": "Caneca de porcelana branca de 325ml ideal para personalização por sublimação. Acabamento de alta qualidade e brilho impecável. Perfeita para presentes e brindes personalizados.",
+    "preco": "38",
+    "imagem": "imagens/black-friday/caneca-porcelana-325ml.jpg",
+    "campanha": "Black Friday 2025"
   },
   {
-    "nome": "Fone Bluetooth",
-    "descricao": "Som estéreo com cancelamento de ruído.",
-    "preco": "R$ 199,90",
-    "imagem": "../imagens/black-friday/fone.jpg"
+    "nome": "Caneca de Vidro Jateada 475ml",
+    "categoria": "Canecas",
+    "descricao": "Caneca de vidro jateado com capacidade de 475ml. Acabamento sofisticado e translúcido, ideal para personalização com fotos e logotipos.",
+    "preco": "50",
+    "imagem": "imagens//black-friday/caneca-vidro-jateada-475ml.jpg",
+    "campanha": "Black Friday 2025"
   },
   {
-    "nome": "TV 50'' 4K",
-    "descricao": "Smart TV com HDR e Wi-Fi integrado.",
-    "preco": "R$ 2.499,00",
-    "imagem": "../imagens/black-friday/tv.jpg"
+    "nome": "Azulejo Branco 20x20cm",
+    "categoria": "Decoração",
+    "descricao": "Azulejo branco de 20x20cm com superfície lisa e brilhante, perfeito para sublimação de fotos, artes decorativas e lembranças personalizadas.",
+    "preco": "40",
+    "imagem": "imagens//black-friday/azulejo-branco-20x20cm.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Azulejo Branco 20x20cm",
+    "categoria": "Decoração",
+    "descricao": "Azulejo branco de 20x20cm com superfície lisa e brilhante, perfeito para sublimação de fotos, artes decorativas e lembranças personalizadas.",
+    "preco": "40",
+    "imagem": "imagens//black-friday/azulejo-branco-20x20cm-2.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Plaquinha de MDF 27x19cm",
+    "categoria": "Decoração",
+    "descricao": "Plaquinha de MDF tamanho 27x19cm com acabamento branco para sublimação. Ideal para quadros decorativos e placas personalizadas.",
+    "preco": "30",
+    "imagem": "imagens//black-friday/plaquinha-mdf-27x19cmMenina.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Plaquinha de MDF 27x19cm",
+    "categoria": "Decoração",
+    "descricao": "Plaquinha de MDF tamanho 27x19cm com acabamento branco para sublimação. Ideal para quadros decorativos e placas personalizadas.",
+    "preco": "30",
+    "imagem": "imagens//black-friday/plaquinha-mdf-27x19cmMenino.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Squeeze de Alumínio 600ml",
+    "categoria": "Squeeze",
+    "descricao": "Garrafa squeeze de alumínio com 600ml, ideal para personalização por sublimação. Leve, resistente e perfeita para brindes e uso esportivo.",
+    "preco": "35",
+    "imagem": "imagens//black-friday/squeeze-aluminio-600ml.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Chaveiro Acrílico 3x4cm",
+    "categoria": "Chaveiros",
+    "descricao": "Chaveiro acrílico transparente tamanho 3x4cm com área interna para personalização frente e verso. Ideal para lembranças e brindes promocionais.",
+    "preco": "5",
+    "imagem": "imagens//black-friday/chaveiro-acrilico-3x4cm.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Chaveiro Redondo MDF",
+    "categoria": "Chaveiros",
+    "descricao": "Chaveiro redondo em MDF com acabamento branco para sublimação. Excelente opção para brindes personalizados e lembrancinhas criativas.",
+    "preco": "5",
+    "imagem": "imagens//black-friday/chaveiro-redondo-mdf.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Agenda Capa MDF 20x14cm",
+    "categoria": "Papelaria",
+    "descricao": "Agenda com capa personalizada em MDF tamanho 20x14cm, perfeita para brindes empresariais e presentes exclusivos.",
+    "preco": "65.90",
+    "imagem": "imagens//black-friday/agenda-capa-mdf-20x14cm.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Plaquinha Acrílica para Chave Pix 15x10cm",
+    "categoria": "Decoração",
+    "descricao": "Plaquinha acrílica tamanho 15x10cm ideal para exibir sua chave Pix personalizada com QR Code. Produto moderno e elegante.",
+    "preco": "15",
+    "imagem": "imagens//black-friday/plaquinha-pix-15x10cm.jpg",
+    "campanha": "Black Friday 2025"
+  },
+  {
+    "nome": "Convite Digital Personalizado",
+    "categoria": "Serviços Digitais",
+    "descricao": "Convite digital personalizado com tema e design exclusivo. Entregue em formato digital pronto para envio via WhatsApp ou e-mail.",
+    "preco": "5",
+    "imagem": "imagens//black-friday/convite-digital.jpg",
+    "campanha": "Black Friday 2025"
   }
 ]
