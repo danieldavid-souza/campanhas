@@ -1,20 +1,26 @@
 [
   {
     "nome": "Kit Churrasco Premium",
+    "categoria": "Dia dos Pais",
     "descricao": "Facas, avental e temperos especiais.",
     "preco": "R$ 149,90",
-    "imagem": "../imagens/pais/kit-churrasco.jpg"
+    "imagem": "../imagens/pais/kit-churrasco.jpg",
+    "campanha": "dia-dos-pais"
   },
   {
     "nome": "Relógio Clássico",
+    "categoria": "Dia dos Pais",
     "descricao": "Design elegante com pulseira de couro.",
     "preco": "R$ 199,90",
-    "imagem": "../imagens/pais/relogio.jpg"
+    "imagem": "../imagens/pais/relogio.jpg",
+    "campanha": "dia-dos-pais"
   },
   {
     "nome": "Cesta de Cervejas Artesanais",
+    "categoria": "Dia dos Pais",
     "descricao": "Seleção especial com 6 rótulos nacionais.",
     "preco": "R$ 89,90",
-    "imagem": "../imagens/pais/cesta-cervejas.jpg"
+    "imagem": "../imagens/pais/cesta-cervejas.jpg",
+    "campanha": "dia-dos-pais"
   }
 ]

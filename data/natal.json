@@ -5,7 +5,7 @@
     "categoria": "Natal",
     "preco": "128",
     "imagem": "imagens/natal/kit.jpg",
-    "campanha": "natal"
+    "campanha": "Natal"
   },
   {
     "nome": "Caneca de Natal Personalizada – Irmão 🎄❤️ Capacidade 325ml",
@@ -13,7 +13,7 @@
     "categoria": "Natal",
     "preco": "38",
     "imagem": "imagens/natal/caneca.jpg",
-    "campanha": "natal"
+    "campanha": "Natal"
   },
   {
     "nome": "🎄 Azulejo Personalizado de Natal – “Um Feliz Natal Iluminado por Deus” ✨",
@@ -21,7 +21,7 @@
     "categoria": "Natal",
     "preco": "40.00",
     "imagem": "imagens/natal/azulejo.jpg",
-    "campanha": "natal"
+    "campanha": "Natal"
   },
   {
     "nome": "Caneca de Natal – “Que a Magia do Natal Transforme Tudo em Amor” 🎄✨",
@@ -29,6 +29,6 @@
     "categoria": "Natal",
     "preco": "38",
     "imagem": "imagens/natal/caneca2.jpg",
-    "campanha": "natal"
+    "campanha": "Natal"
   }
 ]

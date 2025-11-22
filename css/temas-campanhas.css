@@ -1,3 +1,16 @@
+/* ===============================
+   Fallback para quando nenhum tema estiver ativo
+   =============================== */
+:root {
+  --cor-titulo: #333;
+  --cor-preco: #666;
+  --cor-botao: #ccc;
+  --cor-fundo-card: #f9f9f9;
+  --cor-header: #f1f1f1;
+  --cor-texto: #444;
+  font-family: 'Poppins', sans-serif;
+}
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 /* ===============================
@@ -415,13 +428,43 @@ body.dia-dos-professores .btn-whatsapp-card:hover {
   color: #fff;
 }
 
-/* 🛍️ Black Friday */
-body.black-friday .btn-whatsapp-card {
-  background-color: #212121;
+/* 🖤 Black Friday */
+body.black-friday {
+  font-family: 'Montserrat', sans-serif;
+  color: #424242;
 }
-body.black-friday .btn-whatsapp-card:hover {
-  background-color: #000;
+
+body.black-friday .card-produto {
+  background-color: #c1bfbf;
+  border: 2px solid #757575;
+  color: #424242;
+}
+
+body.black-friday .card-produto .nome-produto {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #212121;
+}
+
+body.black-friday .card-produto .descricao-produto {
+  font-size: 1rem;
+  color: #555555;
+  font-weight: 400;
+}
+
+body.black-friday .card-produto .preco {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+body.black-friday .btn-whatsapp-card {
+  background-color: #757575;
   color: #fff;
+}
+
+body.black-friday .btn-whatsapp-card:hover {
+  background-color: #616161;
 }
 
 /* ⭐ Campanha Avulsa */
@@ -474,17 +517,4 @@ body.gratidao h2 {
 }
 body.gratidao .card-produto {
   border-color: #fbc02d;
-}
-
-/* ===============================
-   Fallback para quando nenhum tema estiver ativo
-   =============================== */
-:root {
-  --cor-titulo: #333;
-  --cor-preco: #666;
-  --cor-botao: #ccc;
-  --cor-fundo-card: #f9f9f9;
-  --cor-header: #f1f1f1;
-  --cor-texto: #444;
-  font-family: 'Poppins', sans-serif;
 }

@@ -1,20 +1,26 @@
 [
   {
     "nome": "Caneca Personalizada Infantil – Tema Roblox (Sublimada)",
+    "categoria": "Volta às Aulas",
     "descricao": "Diversão e criatividade reunidas em uma só caneca! Perfeita para os pequenos fãs de Roblox, esta caneca personalizada é ideal para acompanhar o dia a dia escolar com estilo e alegria. Personalizada com o nome da criança, ela se torna um presente exclusivo e especial. Produzida com impressão por sublimação, garante cores vibrantes, alta durabilidade e acabamento impecável. Material: polímero branca de alta qualidade Capacidade: 325 ml.",
     "preco": "35",
-    "imagem": "../imagens/volta-as-aulas/caneca-personagens1.jpg"
+    "imagem": "../imagens/volta-as-aulas/caneca-personagens1.jpg",
+    "campanha": "Volta às Aulas"
   },
   {
     "nome": "Caneca Personalizada Infantil – Tema Robôs e Games (Sublimada)",
+    "categoria": "Volta às Aulas",
     "descricao": "Tecnologia, diversão e muita personalidade! A caneca personalizada com tema de robôs e games é o acessório perfeito para crianças apaixonadas por aventuras digitais e tecnologia. Com um design moderno e alegre, pode ser personalizada com o nome da criança, tornando-a única e exclusiva. Impressa por sublimação para garantir cores vivas e alta durabilidade. Material: polímero branca de alta qualidade Capacidade: 325 ml.",
     "preco": "35",
-    "imagem": "../imagens/volta-as-aulas/caneca-personagens2.jpg"
+    "imagem": "../imagens/volta-as-aulas/caneca-personagens2.jpg",
+    "campanha": "Volta às Aulas"
   },
   {
     "nome": "Caneca Educacional Infantil – Tabuada do Astronauta (Sublimada)",
+    "categoria": "Volta às Aulas",
     "descricao": "Aprender ficou muito mais divertido! A Caneca Educacional Tabuada do Astronauta é perfeita para o retorno às aulas, unindo aprendizado e diversão no mesmo produto. Com design lúdico e colorido, ela traz a tabuada completa impressa em alta definição, ajudando as crianças a estudar de forma leve e prática. Produzida em cerâmica e sublimada com qualidade profissional, é resistente e ideal para o uso diário. Material: polímero branca de alta qualidade Capacidade: 325 ml.",
     "preco": "35",
-    "imagem": "../imagens/volta-as-aulas/caneca-tabuada.jpg"
+    "imagem": "../imagens/volta-as-aulas/caneca-tabuada.jpg",
+    "campanha": "Volta às Aulas"
   }
 ]

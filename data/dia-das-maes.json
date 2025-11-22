@@ -1,23 +1,26 @@
 [
   {
     "nome": "Caneca de Porcelana Branca 325ml",
-    "categoria": "dia-das-maes",
+    "categoria": "Dia das Mães",
     "preco": "38.00",
     "imagem": "imagens/maes/caneca-amor-de-mae-foto.jpg",
+    "descricao": "Caneca personalizada com estampa delicada para homenagear o amor de mãe. Ideal para presentear com carinho.",
     "campanha": "dia-das-maes"
   },
   {
     "nome": "Caneca de Porcelana Branca 325ml",
-    "categoria": "dia-das-maes",
+    "categoria": "Dia das Mães",
     "preco": "38.00",
     "imagem": "imagens/maes/caneca-amor-de-mae.jpg",
+    "descricao": "Caneca com mensagem afetiva e design floral, perfeita para celebrar o Dia das Mães com emoção.",
     "campanha": "dia-das-maes"
   },
   {
     "nome": "Azulejo Para Sublimação Tamanho 20x20cm",
-    "categoria": "dia-das-maes",
+    "categoria": "Dia das Mães",
     "preco": "40.00",
     "imagem": "imagens/maes/azulejo-amor-de-mae.jpg",
+    "descricao": "Azulejo decorativo com frase de amor materno. Ideal para presentear e decorar com afeto.",
     "campanha": "dia-das-maes"
   }
 ]

@@ -1,20 +1,26 @@
 [
   {
     "nome": "Livro de Memórias",
+    "categoria": "Dia dos Avós",
     "descricao": "Para registrar histórias, fotos e momentos especiais em família.",
     "preco": "R$ 59,90",
-    "imagem": "../imagens/avos/livro-memorias.jpg"
+    "imagem": "../imagens/avos/livro-memorias.jpg",
+    "campanha": "dia-dos-avos"
   },
   {
     "nome": "Caneca “Melhor Vovô/Vovó”",
+    "categoria": "Dia dos Avós",
     "descricao": "Personalizada com nome e mensagem carinhosa.",
     "preco": "R$ 29,90",
-    "imagem": "../imagens/avos/caneca-personalizada.jpg"
+    "imagem": "../imagens/avos/caneca-personalizada.jpg",
+    "campanha": "dia-dos-avos"
   },
   {
     "nome": "Kit Chá da Tarde",
+    "categoria": "Dia dos Avós",
     "descricao": "Inclui infusor, seleção de chás e biscoitos artesanais.",
     "preco": "R$ 74,90",
-    "imagem": "../imagens/avos/kit-cha.jpg"
+    "imagem": "../imagens/avos/kit-cha.jpg",
+    "campanha": "dia-dos-avos"
   }
 ]

@@ -1,23 +1,26 @@
 [
   {
     "nome": "Caneca de Porcelana Branca 325ml",
-    "categoria": "Dia Do Amigo",
+    "categoria": "Dia do Amigo",
     "preco": "38.00",
     "imagem": "imagens/amigos/caneca1.jpg",
+    "descricao": "Caneca personalizada com mensagem de amizade e carinho. Ideal para presentear amigos especiais.",
     "campanha": "dia-do-amigo"
   },
   {
     "nome": "Caneca de Porcelana Branca 325ml",
-    "categoria": "Dia Do Amigo",
+    "categoria": "Dia do Amigo",
     "preco": "38.00",
     "imagem": "imagens/amigos/caneca2.jpg",
+    "descricao": "Caneca com estampa divertida e afetuosa para celebrar o Dia do Amigo com estilo.",
     "campanha": "dia-do-amigo"
   },
   {
     "nome": "Caneca de Porcelana Branca 325ml",
-    "categoria": "Dia Do Amigo",
+    "categoria": "Dia do Amigo",
     "preco": "38.00",
     "imagem": "imagens/amigos/caneca3.jpg",
+    "descricao": "Caneca com design alegre e mensagem de gratidão pela amizade verdadeira. Presente perfeito para amigos.",
     "campanha": "dia-do-amigo"
   }
 ]

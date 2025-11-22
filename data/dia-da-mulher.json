@@ -1,20 +1,26 @@
 [
   {
     "nome": "Necessaire Floral",
+    "categoria": "Dia da Mulher",
     "descricao": "Compacta e resistente, ideal para o dia a dia.",
     "preco": "R$ 39,90",
-    "imagem": "../imagens/mulher/necessaire.jpg"
+    "imagem": "../imagens/mulher/necessaire.jpg",
+    "campanha": "dia-da-mulher"
   },
   {
     "nome": "Perfume Elegance",
+    "categoria": "Dia da Mulher",
     "descricao": "Fragrância suave e marcante.",
     "preco": "R$ 149,90",
-    "imagem": "../imagens/mulher/perfume.jpg"
+    "imagem": "../imagens/mulher/perfume.jpg",
+    "campanha": "dia-da-mulher"
   },
   {
     "nome": "Livro Inspirador",
+    "categoria": "Dia da Mulher",
     "descricao": "Histórias de mulheres que mudaram o mundo.",
     "preco": "R$ 49,90",
-    "imagem": "../imagens/mulher/livro.jpg"
+    "imagem": "../imagens/mulher/livro.jpg",
+    "campanha": "dia-da-mulher"
   }
 ]

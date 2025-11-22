@@ -3,32 +3,32 @@
     "nome": "Caneca Setembro Amarelo",
     "descricao": "Caneca com mensagem de apoio e acolhimento. Capacidade 325ml.",
     "categoria": "Setembro Amarelo",
-    "preco": 35.00,
+    "preco": "38",
     "imagem": "imagens/setembro/caneca.jpg",
-    "campanha": "setembro"
+    "campanha": "setembro Amarelo"
   },
   {
     "nome": "Camisa Consciente",
     "descricao": "Camisa amarela com frase inspiradora. Tecido leve e confortável.",
     "categoria": "Setembro Amarelo",
-    "preco": 45.00,
+    "preco": "40",
     "imagem": "imagens/setembro/camisa.jpg",
-    "campanha": "setembro"
+    "campanha": "setembro Amarelo"
   },
   {
-    "nome": "Azulejo Decorativo",
-    "descricao": "Azulejo 20x20cm com arte de esperança e empatia.",
+    "nome": "Kit Personalizado Setembro Amarelo – Camiseta + Caneca (Sublimados)",
+    "descricao": "Composto por camiseta e caneca sublimadas, o kit traz o tema “Exerça a empatia, Setembro Amarelo todo dia!”, reforçando a importância de cuidar da saúde mental e espalhar gentileza.",
     "categoria": "Setembro Amarelo",
-    "preco": 40.00,
+    "preco": "78",
     "imagem": "imagens/setembro/kit.jpg",
-    "campanha": "setembro"
+    "campanha": "setembro Amarelo"
   },
   {
-    "nome": "Chaveiro de Apoio",
-    "descricao": "Chaveiro com frase de incentivo. Pequeno gesto, grande impacto.",
+    "nome": "Caneca Sublimada – “Escolha Florescer” (Campanha Setembro Amarelo)",
+    "descricao": "Espalhe positividade e esperança com a caneca “Escolha Florescer”, criada especialmente para a Campanha Setembro Amarelo. om um design delicado de flores amarelas e tipografia elegante, esta caneca traz uma mensagem de incentivo e autocuidado, lembrando a importância de florescer mesmo nos dias difíceis.",
     "categoria": "Setembro Amarelo",
-    "preco": 10.00,
+    "preco": "38",
     "imagem": "imagens/setembro/caneca2.jpg",
-    "campanha": "setembro"
+    "campanha": "setembro Amarelo"
   }
 ]

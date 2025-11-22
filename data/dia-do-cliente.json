@@ -1,20 +1,26 @@
 [
   {
     "nome": "Cupom de Desconto",
+    "categoria": "Dia do Cliente",
     "descricao": "R$ 20 off em compras acima de R$ 100.",
     "preco": "Gratuito",
-    "imagem": "../imagens/cliente/cupom.jpg"
+    "imagem": "../imagens/cliente/cupom.jpg",
+    "campanha": "dia-do-cliente"
   },
   {
     "nome": "Brinde Surpresa",
+    "categoria": "Dia do Cliente",
     "descricao": "Receba um presente exclusivo.",
     "preco": "Gratuito",
-    "imagem": "../imagens/cliente/brinde.jpg"
+    "imagem": "../imagens/cliente/brinde.jpg",
+    "campanha": "dia-do-cliente"
   },
   {
     "nome": "Frete Grátis",
+    "categoria": "Dia do Cliente",
     "descricao": "Para todo o Brasil em compras acima de R$ 50.",
     "preco": "Gratuito",
-    "imagem": "../imagens/cliente/frete.jpg"
+    "imagem": "../imagens/cliente/frete.jpg",
+    "campanha": "dia-do-cliente"
   }
 ]
